@@ -1,0 +1,356 @@
+<meta charset="utf-8">
+<title>Climate Risk TARP Finder</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: questionnaire rail on the left (sticky on wide screens), results register on the right; stacks on phones. */
+:root{
+  --bg:#f3f5f7; --surface:#ffffff; --sunk:#e9edf1; --line:#d3dae1; --fg:#17212b; --muted:#566573;
+  --accent:#0b5d7a; --accent-ink:#ffffff; --accent-soft:#dcecf2;
+  --n:black; --n-bg:#5abc7b; --t1:black; --t1-bg:#f2d323;
+  --t2:black; --t2-bg:#f08a1c; --t3:black; --t3-bg:#f75344;
+  --lv-ext:#b3261e; --lv-high:#c2570c; --lv-med:#8a6d00; --lv-low:#2f7d4f;
+  --f-display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11171d; --surface:#18212a; --sunk:#202b35; --line:#2f3c48; --fg:#e6ecf1; --muted:#9aa9b6;
+  --accent:#5fb7d6; --accent-ink:#0b1a22; --accent-soft:#183746;
+  --n:#7fd19c; --n-bg:#17321f; --t1:black; --t1-bg:black; --t1-bar:#d9b800;
+  --t2:#ffb36b; --t2-bg:#40260f; --t2-bar:#f08a1c; --t3:#ff8f86; --t3-bg:#45191a; --t3-bar:#e5483d;
+  --lv-ext:#ff8f86; --lv-high:#ffa45c; --lv-med:#f0d55c; --lv-low:#7fd19c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11171d; --surface:#18212a; --sunk:#202b35; --line:#2f3c48; --fg:#e6ecf1; --muted:#9aa9b6;
+  --accent:#5fb7d6; --accent-ink:#0b1a22; --accent-soft:#183746;
+  --n:#7fd19c; --n-bg:#17321f; --t1:#f0d55c; --t1-bg:#3a3110; --t1-bar:#d9b800;
+  --t2:#ffb36b; --t2-bg:#40260f; --t2-bar:#f08a1c; --t3:#ff8f86; --t3-bg:#45191a; --t3-bar:#e5483d;
+  --lv-ext:#ff8f86; --lv-high:#ffa45c; --lv-med:#f0d55c; --lv-low:#7fd19c; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1400px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+header.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;padding-bottom:16px;border-bottom:2px solid var(--fg);margin-bottom:20px}
+header.top h1{font-family:var(--f-display);font-weight:700;font-size:1.9rem;letter-spacing:.01em;margin:0;text-wrap:balance}
+header.top p{margin:0;color:var(--muted)}
+.layout{display:grid;grid-template-columns:minmax(300px,380px) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr)}}
+/* questionnaire */
+form.q{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:18px}
+@media (min-width:901px){form.q{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);max-height:calc(100vh - 24px);overflow:auto}}
+fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;min-width:0}
+legend{font-family:var(--f-display);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.09em;color:var(--accent);padding:0;margin-bottom:6px}
+label.f{display:flex;flex-direction:column;gap:4px;font-weight:600;font-size:.92rem}
+input[type=text],select{font:inherit;font-weight:400;padding:8px 10px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%}
+input[type=text]:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.yn{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px;padding:6px 0;border-top:1px solid var(--sunk)}
+.yn:first-of-type{border-top:0}
+.yn span.qt{font-size:.92rem;line-height:1.35}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.seg input{position:absolute;opacity:0;width:1px;height:1px}
+.seg label{padding:4px 12px;font-size:.85rem;font-weight:600;cursor:pointer;color:var(--muted);background:var(--bg)}
+.seg label+input+label{border-left:1px solid var(--line)}
+.seg input:checked+label{background:var(--accent);color:var(--accent-ink)}
+.seg input:focus-visible+label{outline:2px solid var(--accent);outline-offset:-2px}
+.row-actions{display:flex;flex-wrap:wrap;gap:8px}
+button{font:inherit;font-weight:600;font-size:.88rem;padding:7px 12px;border-radius:4px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+/* results */
+.summary{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;margin-bottom:16px}
+.summary h2{font-family:var(--f-display);font-size:1.35rem;font-weight:700;margin:0;flex:1 1 260px;min-width:0;text-wrap:balance}
+.summary .sub{display:block;font-family:var(--f-body);font-size:.9rem;font-weight:400;color:var(--muted)}
+.counts{display:flex;flex-wrap:wrap;gap:6px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-display);font-weight:600;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:999px;border:1.5px solid currentColor;white-space:nowrap}
+.lv-Extreme{color:var(--lv-ext)}.lv-High{color:var(--lv-high)}.lv-Medium{color:var(--lv-med)}.lv-Low{color:var(--lv-low)}
+.toggle{display:flex;align-items:center;gap:8px;font-size:.9rem;color:var(--muted)}
+.toggle input{accent-color:var(--accent);width:16px;height:16px}
+.cards{display:flex;flex-direction:column;gap:18px}
+article.risk{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.rh{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;padding:14px 16px;border-bottom:1px solid var(--line)}
+.rid{font-family:var(--f-mono);font-size:.8rem;color:var(--muted);background:var(--sunk);padding:2px 6px;border-radius:3px}
+.rh h3{font-family:var(--f-display);font-weight:700;font-size:1.3rem;margin:0;flex:1 1 220px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 16px;padding:10px 16px;background:var(--sunk);font-size:.88rem}
+.meta b{font-weight:600;color:var(--muted);text-transform:uppercase;font-size:.72rem;letter-spacing:.08em;margin-right:4px}
+.chip{display:inline-block;font-size:.8rem;padding:1px 7px;border-radius:3px;background:var(--accent-soft);color:var(--fg);margin:1px 3px 1px 0}
+.chip.poss{background:transparent;border:1px dashed var(--muted);color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0}
+.two>section{padding:14px 16px;min-width:0}
+.two>section+section{border-left:1px solid var(--line)}
+@media (max-width:700px){.two{grid-template-columns:minmax(0,1fr)}.two>section+section{border-left:0;border-top:1px solid var(--line)}}
+h4{font-family:var(--f-display);font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 6px}
+.txt{white-space:pre-line;font-size:.92rem;overflow-wrap:anywhere}
+.txt a{color:var(--accent)}
+.txt strong{display:inline-block;margin-top:4px}
+.tarp-wrap{border-top:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.tarp{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:1100px){.tarp{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.tarp{grid-template-columns:minmax(0,1fr)}}
+.lvl{border:1px solid var(--line);border-radius:5px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.lvl .lh{font-family:var(--f-display);font-weight:700;font-size:.95rem;letter-spacing:.04em;padding:6px 10px;border-bottom:3px solid}
+.lvl.n .lh{background:var(--n-bg);color:var(--n);border-color:var(--n)}
+.lvl.t1 .lh{background:var(--t1-bg);color:var(--t1);border-color:var(--t1-bar)}
+.lvl.t2 .lh{background:var(--t2-bg);color:var(--t2);border-color:var(--t2-bar)}
+.lvl.t3 .lh{background:var(--t3-bg);color:var(--t3);border-color:var(--t3-bar)}
+.lvl .th{padding:8px 10px;font-weight:600;font-size:.9rem;border-bottom:1px dashed var(--line)}
+.lvl .ac{padding:8px 10px;font-size:.88rem}
+.empty-note{color:var(--muted);font-style:italic;font-size:.88rem}
+details.base{font-size:.86rem;color:var(--muted)}
+details.base summary{cursor:pointer;font-weight:600}
+.state-msg{background:var(--surface);border:1px dashed var(--line);border-radius:6px;padding:28px 20px;text-align:left;color:var(--muted)}
+.state-msg strong{display:block;color:var(--fg);font-family:var(--f-display);font-size:1.15rem;margin-bottom:4px}
+.toast{font-size:.85rem;color:var(--n)}
+@media (prefers-reduced-motion:no-preference){article.risk{animation:in .25s ease-out both}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+
+.src{display:flex;flex-direction:column;gap:8px;padding:12px;border:1px dashed var(--accent);border-radius:5px;background:var(--accent-soft)}
+.src .fn{font-family:var(--f-mono);font-size:.82rem;overflow-wrap:anywhere}
+.src .when{font-size:.82rem;color:var(--muted)}
+.file-btn{display:inline-flex;align-items:center;justify-content:center;font-weight:600;font-size:.88rem;padding:8px 12px;border-radius:4px;background:var(--accent);color:var(--accent-ink);cursor:pointer;border:1px solid var(--accent)}
+.file-btn:focus-within{outline:2px solid var(--fg);outline-offset:2px}
+.file-btn input{position:absolute;opacity:0;width:1px;height:1px}
+.warn{font-size:.85rem;color:var(--t3);background:var(--t3-bg);padding:8px 10px;border-radius:4px}
+.warn ul{margin:4px 0 0;padding-left:18px}
+.steps{margin:8px 0 0;padding-left:20px;color:var(--fg)}
+.steps li{margin:4px 0}
+.drop{outline:2px dashed var(--accent);outline-offset:-6px}
+#qbody,#groups{display:flex;flex-direction:column;gap:18px}
+</style>
+<div class="wrap">
+<header class="top">
+  <h1>Climate Risk TARP Finder</h1>
+  <p>Answer the project questionnaire to get the climate hazards, risks, trigger levels and TARP that apply to your site.</p>
+</header>
+<div class="layout">
+<form class="q" id="q" novalidate>
+  <div class="src" id="src"><div id="srcinfo"><strong>Loading workbook…</strong></div></div>
+  <div id="warn" hidden></div>
+  <div id="qbody" hidden>
+    <fieldset>
+      <legend>Project information</legend>
+      <label class="f" for="pname">Project name<input type="text" id="pname"></label>
+      <label class="f" for="state">Project location (state/territory)<select id="state"></select></label>
+      <label class="f" for="season">Season when project is conducted<select id="season"></select></label>
+    </fieldset>
+    <div id="groups"></div>
+    <div class="row-actions">
+      <button type="button" id="allno">Set all to No</button>
+      <button type="button" id="fromsheet">Use answers from the workbook</button>
+    </div>
+  </div>
+</form>
+<main id="out" aria-live="polite"></main>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="data/erp-data.js"></script>
+<script>
+/* The three sheets the page reads, saved from the Excel workbook as CSV (UTF-8) in the "data" folder next to this page */
+const DATA_FILES={"Database":"data/Database.csv","TARP & ERP":"data/TARP_ERP.csv","Project Questionaire":"data/Project_Questionaire.csv"};
+const DATA_FILE="data/*.csv";
+const SEASONS_DEFAULT=["Spring","Summer","Autumn","Winter"];
+const STATES_DEFAULT=["New South Wales","Northern Territory","Queensland","South Australia","Tasmania","Victoria","Western Australia"];
+const $=s=>document.querySelector(s);
+const norm=s=>String(s??"").trim().toLowerCase();
+const str=v=>v==null?"":String(v).trim();
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function rich(s){ if(!s) return "";
+ let h=esc(s.trim()).replace(/(https?:\/\/[^\s<]+)/g,u=>{const t=u.replace(/[).,;]+$/,"");return `<a href="${t}" target="_blank" rel="noopener">${t}</a>`+u.slice(t.length)});
+ return h.replace(/^(Monitor|Mitigation|Communication|Action|Response):?\s*$/gm,"<strong>$1:</strong>").replace(/^(Bushfire-prone:[^\n]*|Work at height[^\n]*|Flood-prone:[^\n]*):$/gm,"<strong>$1</strong>")}
+function hkey(h){h=norm(h);
+ if(h.includes("temp"))return"temp"; if(h.includes("coastal"))return"coastal"; if(h.includes("wind"))return"wind";
+ if(h.includes("bushfire"))return"bushfire"; if(h.includes("riverine"))return"river"; if(h.includes("rain"))return"rain"; return h}
+
+/* ---------- Reading the workbook ---------- */
+function findSheet(wb,test){const n=wb.SheetNames.find(n=>test(norm(n)));if(!n)return null;
+ const ws=wb.Sheets[n];if(!ws["!ref"])return [];const rg=XLSX.utils.decode_range(ws["!ref"]);rg.s={r:0,c:0};
+ return XLSX.utils.sheet_to_json(ws,{header:1,defval:"",raw:false,range:rg,blankrows:true})}
+function col(row,name){return row.findIndex(c=>norm(c)===norm(name))}
+function parseWorkbook(wb){
+ const problems=[];
+ const dbRows=findSheet(wb,n=>n==="database");
+ const tpRows=findSheet(wb,n=>n.includes("tarp"));
+ const pqRows=findSheet(wb,n=>n.includes("questionn")||n.includes("questionaire"));
+ if(!dbRows) throw new Error('No sheet named "Database" was found in this workbook.');
+ if(!pqRows) throw new Error('No "Project Questionaire" sheet was found in this workbook.');
+ if(!tpRows) problems.push('No "TARP & ERP" sheet was found, so trigger levels and TARP will be empty.');
+
+ /* Database: headers in row 1, question columns named in row 2 */
+ let hr=dbRows.findIndex(r=>r.some(c=>norm(c)==="risk id"));if(hr<0)hr=0;
+ const h1=dbRows[hr]||[],h2=dbRows[hr+1]||[];
+ const C={id:col(h1,"Risk ID"),state:col(h1,"State"),season:col(h1,"Season"),hazard:col(h1,"Climate Hazards"),
+  level:col(h1,"Risk Level"),exposure:col(h1,"Exposure"),vuln:col(h1,"Vulnerability"),risk:col(h1,"Construction Risk Event")};
+ Object.entries(C).forEach(([k,i])=>{if(i<0)problems.push(`Database column for "${k}" was not found in row 1.`)});
+ let qStart=col(h1,"Question and Response");
+ if(qStart<0)qStart=h2.findIndex(c=>norm(c)==="coastal");
+ let qEnd=h1.findIndex(c=>norm(c)==="climate hazard details");if(qEnd<0)qEnd=h2.length;
+ const flagCols=[];if(qStart>=0)for(let i=qStart;i<qEnd;i++){if(str(h2[i]))flagCols.push({i,name:str(h2[i])})}
+ const db=[];
+ for(let r=hr+2;r<dbRows.length;r++){const row=dbRows[r];const g=i=>i<0?"":str(row[i]);
+  if(!g(C.id)&&!g(C.hazard))continue;
+  db.push({row:r+1,id:g(C.id),state:g(C.state),season:g(C.season),hazard:g(C.hazard),level:g(C.level),
+   exposure:g(C.exposure),vuln:g(C.vuln),risk:g(C.risk),flags:flagCols.map(f=>norm(row[f.i]))})}
+
+ /* TARP & ERP: headers in row 1 */
+ const tarp=[];
+ if(tpRows){let th=tpRows.findIndex(r=>r.some(c=>norm(c)==="state"));if(th<0)th=0;const t1=tpRows[th]||[];
+  const T={state:col(t1,"State"),hazard:t1.findIndex(c=>norm(c).includes("hazard")),
+   th:["Normal Trigger Threshold","Trigger Threshold 1 (T1)","Trigger Threshold 2 (T2)","Trigger Threshold 3 (T3)"].map(n=>col(t1,n)),
+   act:["Normal Action Plan","T1 TARP","T2 TARP","T3 TARP"].map(n=>col(t1,n)),base:col(t1,"Base Information")};
+  if(T.state<0||T.hazard<0)problems.push('TARP & ERP sheet: "State" or hazard column not found in row 1.');
+  for(let r=th+1;r<tpRows.length;r++){const row=tpRows[r];const g=i=>i<0?"":str(row[i]);
+   if(!g(T.state)||!g(T.hazard))continue;
+   tarp.push({state:g(T.state),hazard:g(T.hazard),th:T.th.map(g),act:T.act.map(g),base:g(T.base)})}}
+
+ /* Project Questionaire: labels in column B, answers in column E */
+ const info={},groups=[];let cur=null;
+ pqRows.forEach(row=>{
+  /* Works whether or not Excel kept the empty column A / row 1 when saving the CSV */
+  const cells=row.map(str);const li=cells.findIndex(c=>c&&c!==":");if(li<0)return;
+  const lab=cells[li];const rest=cells.slice(li+1).filter(c=>c&&c!==":");const ans=rest.length?rest[rest.length-1]:"";
+  const l=norm(lab);
+  if(l.startsWith("project name"))info.pname=ans;
+  else if(l.includes("location"))info.state=ans;
+  else if(l.startsWith("season"))info.season=ans;
+  else if(l==="project information")return;
+  else if(!lab.endsWith("?")){cur={title:lab,qs:[]};groups.push(cur)}
+  else{if(!cur){cur={title:"Questions",qs:[]};groups.push(cur)}cur.qs.push({text:lab,answer:norm(ans)==="yes"?"Yes":"No"})}});
+ const allQs=groups.flatMap(g=>g.qs);
+ if(allQs.length!==flagCols.length)problems.push(`The questionnaire has ${allQs.length} Yes/No questions but the Database has ${flagCols.length} question columns. They are paired in order, so check both sheets list them in the same order.`);
+ allQs.forEach((q,i)=>{q.idx=i;q.flag=flagCols[i]?flagCols[i].name:"(no Database column)"});
+
+ const states=[...new Set([...STATES_DEFAULT,...db.map(r=>r.state)].map(s=>s.trim()).filter(Boolean))].sort();
+ return {db,tarp,groups,info,states,problems};
+}
+
+/* ---------- State ---------- */
+let M=null, src=null, includePossible=true, last=[];
+try{const v=localStorage.getItem("ctf-poss");if(v!==null)includePossible=v==="1"}catch(e){}
+
+function buildForm(){
+ $("#state").innerHTML=M.states.map(s=>`<option>${esc(s)}</option>`).join("");
+ $("#season").innerHTML=SEASONS_DEFAULT.map(s=>`<option>${s}</option>`).join("");
+ $("#groups").innerHTML=M.groups.map(g=>`<fieldset><legend>${esc(g.title)}</legend>${g.qs.map(q=>`<div class="yn"><span class="qt" id="l-${q.idx}">${esc(q.text)}</span><span class="seg" role="radiogroup" aria-labelledby="l-${q.idx}">
+  <input type="radio" name="q${q.idx}" id="q${q.idx}-y" value="Yes"><label for="q${q.idx}-y">Yes</label>
+  <input type="radio" name="q${q.idx}" id="q${q.idx}-n" value="No" checked><label for="q${q.idx}-n">No</label></span></div>`).join("")}</fieldset>`).join("");
+ $("#qbody").hidden=false;
+}
+function allQs(){return M.groups.flatMap(g=>g.qs)}
+function applySheetAnswers(){const i=M.info;$("#pname").value=i.pname||"";
+ if(i.state&&M.states.includes(i.state))$("#state").value=i.state;
+ if(i.season&&SEASONS_DEFAULT.includes(i.season))$("#season").value=i.season;
+ allQs().forEach(q=>document.getElementById(`q${q.idx}-${q.answer==="Yes"?"y":"n"}`).checked=true)}
+function answers(){return{pname:$("#pname").value.trim(),state:$("#state").value,season:$("#season").value,
+ yes:allQs().filter(q=>document.querySelector(`input[name=q${q.idx}]:checked`).value==="Yes")}}
+
+function match(a){const hits=[];
+ M.db.forEach(r=>{
+  if(norm(r.state)!==norm(a.state))return;
+  if(r.season&&!norm(r.season).includes(norm(a.season)))return;
+  const direct=a.yes.filter(q=>r.flags[q.idx]==="yes").map(q=>q.flag);
+  const poss=a.yes.filter(q=>r.flags[q.idx]==="possible").map(q=>q.flag);
+  if(!direct.length&&!(includePossible&&poss.length))return;
+  hits.push({r,direct,poss:includePossible?poss:[]})});
+ /* Merge rows that describe the same hazard in the same state (e.g. BF-01, BF-02, BF-03) into one result */
+ const groups=new Map();
+ hits.forEach(h=>{const k=norm(h.r.state)+"|"+norm(h.r.hazard).replace(/\s+/g," ");
+  if(!groups.has(k))groups.set(k,{rows:[],direct:new Set(),poss:new Set()});
+  const g=groups.get(k);g.rows.push(h.r);h.direct.forEach(x=>g.direct.add(x));h.poss.forEach(x=>g.poss.add(x))});
+ const rank={extreme:0,high:1,medium:2,low:3};
+ const uniq=arr=>{const seen=new Set();return arr.filter(x=>{const k=norm(x).replace(/\s+/g," ");if(!k||seen.has(k))return false;seen.add(k);return true})};
+ const out=[...groups.values()].map(g=>{const r0=g.rows[0];
+  const level=g.rows.map(r=>r.level).sort((x,y)=>(rank[norm(x)]??9)-(rank[norm(y)]??9))[0];
+  const multi=g.rows.length>1;
+  const vulnParts=[];const seenV=new Set();
+  g.rows.forEach(r=>{const k=norm(r.vuln).replace(/\s+/g," ");if(!k||seenV.has(k))return;seenV.add(k);
+   vulnParts.push(multi&&r.exposure&&r.exposure.length<90?r.exposure+":\n"+r.vuln:r.vuln)});
+  const t=M.tarp.find(t=>norm(t.state)===norm(r0.state)&&hkey(t.hazard)===hkey(r0.hazard));
+  const direct=[...g.direct];
+  return {r:{ids:uniq(g.rows.map(r=>r.id)),rows:g.rows.map(r=>r.row),state:r0.state,hazard:r0.hazard,level,
+    season:uniq(g.rows.map(r=>r.season)).join("; "),
+    exposures:uniq(g.rows.map(r=>r.exposure).filter(e=>e&&e.length<90)),
+    risk:uniq(g.rows.map(r=>r.risk)).join("\n\n"),vuln:vulnParts.join("\n\n")},
+   direct,poss:[...g.poss].filter(x=>!g.direct.has(x)),t}});
+ out.sort((x,y)=>(x.direct.length?0:1)-(y.direct.length?0:1)||(rank[norm(x.r.level)]??9)-(rank[norm(y.r.level)]??9));
+ return out}
+
+const lvClass=l=>"lv-"+(["Extreme","High","Medium","Low"].find(x=>norm(x)===norm(l))||"x");
+const lv=l=>`<span class="pill ${lvClass(l)}">${esc(l||"Not rated")}</span>`;
+const lbl=c=>c.replace("equipmet","equipment");
+function card(m){const r=m.r,t=m.t;
+ const shortExp=r.exposures.length?`<div><b>Exposure</b>${r.exposures.map(e=>`<span class="chip">${esc(e)}</span>`).join("")}</div>`:"";
+ const levels=[["n","Normal"],["t1","T1"],["t2","T2"],["t3","T3"]];
+ const tarp=t?`<div class="tarp">${levels.map(([c,n],i)=>`<div class="lvl ${c}"><div class="lh">${n}</div>
+   <div class="th txt">${rich(t.th[i])||'<span class="empty-note">No threshold entered</span>'}</div>
+   <div class="ac txt">${rich(t.act[i])||'<span class="empty-note">'+(i===0?"No action plan entered":"No TARP entered")+'</span>'}</div></div>`).join("")}</div>
+   ${t.base?`<details class="base"><summary>Base information and sources</summary><div class="txt">${rich(t.base)}</div></details>`:""}`
+  :`<p class="empty-note">No trigger thresholds or TARP have been entered for ${esc(r.state)} – ${esc(r.hazard)} in the TARP &amp; ERP sheet yet.</p>`;
+ return `<article class="risk">
+ <div class="rh">${r.ids.map(id=>`<span class="rid">${esc(id)}</span>`).join("")}<h3>${esc(r.hazard)}</h3>${lv(r.level)}</div>
+ <div class="meta"><div><b>State</b>${esc(r.state)}</div><div><b>Season</b>${esc(r.season)}</div>${shortExp}
+  <div><b>Triggered by</b>${m.direct.map(c=>`<span class="chip">${esc(lbl(c))}</span>`).join("")}${m.poss.map(c=>`<span class="chip poss" title="Marked as Possible in the Database">${esc(lbl(c))} (possible)</span>`).join("")}</div>
+  <div><b>Database row${r.rows.length>1?"s":""}</b>${r.rows.join(", ")}</div></div>
+ <div class="two"><section><h4>Risks</h4><div class="txt">${rich(r.risk)||'<span class="empty-note">Not yet entered in Database</span>'}</div></section>
+ <section><h4>Vulnerability</h4><div class="txt">${rich(r.vuln)||'<span class="empty-note">Not yet entered in Database</span>'}</div></section></div>
+ <div class="tarp-wrap"><h4>Trigger levels and TARP</h4>${tarp}</div></article>`}
+
+function render(){
+ if(!M){$("#out").innerHTML=`<div class="state-msg"><strong>Loading the hazard database…</strong>Reading the Database, TARP &amp; ERP and Project Questionaire sheets.</div>`;return}
+ const a=answers();last=match(a);
+ const counts={};last.forEach(m=>counts[m.r.level]=(counts[m.r.level]||0)+1);
+ const head=`<div class="summary"><h2>${last.length} risk${last.length===1?"":"s"} for ${esc(a.pname||"this project")}<span class="sub">${esc(a.state)} · ${esc(a.season)}</span></h2>
+  <div class="counts">${Object.entries(counts).map(([l,n])=>`<span class="pill ${lvClass(l)}">${n} ${esc(l)}</span>`).join("")}</div>
+  <label class="toggle" for="poss"><input type="checkbox" id="poss" ${includePossible?"checked":""}>Include “Possible” matches</label>
+  <button type="button" id="copy" class="primary">Copy as table</button>
+  <span class="toast" id="toast" role="status"></span></div>`;
+ let body;
+ if(!a.yes.length) body=`<div class="state-msg"><strong>No site conditions or activities selected</strong>Answer Yes to at least one question to see the hazards that apply.</div>`;
+ else if(!last.length) body=`<div class="state-msg"><strong>No matching hazards</strong>The Database has no ${esc(a.state)} hazards in ${esc(a.season)} linked to the conditions and activities you selected${includePossible?"":". Try including “Possible” matches"}.</div>`;
+ else body=`<div class="cards">${last.map(card).join("")}</div>`;
+ $("#out").innerHTML=head+body;
+ $("#poss").addEventListener("change",e=>{includePossible=e.target.checked;try{localStorage.setItem("ctf-poss",includePossible?"1":"0")}catch(_){}render()});
+ $("#copy").addEventListener("click",copyTable);
+}
+function cell(s){return '"'+String(s||"").trim().replace(/"/g,'""')+'"'}
+function copyTable(){const L=["Normal","T1","T2","T3"];
+ const rows=[["State","Season","Hazard","Risks","Vulnerability","Risk Level","Trigger Levels","TARP"]];
+ last.forEach(({r,t})=>rows.push([r.state,r.season,r.hazard,r.risk,r.vuln,r.level,
+  t?L.map((n,i)=>t.th[i]?n+": "+t.th[i]:"").filter(Boolean).join("\n\n"):"",
+  t?L.map((n,i)=>t.act[i]?n+" TARP:\n"+t.act[i]:"").filter(Boolean).join("\n\n"):""]));
+ const tsv=rows.map(r=>r.map(cell).join("\t")).join("\n");
+ const done=m=>{$("#toast").textContent=m;setTimeout(()=>{const el=$("#toast");if(el)el.textContent=""},3000)};
+ const fallback=()=>{const ta=document.createElement("textarea");ta.value=tsv;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();
+  let ok=false;try{ok=document.execCommand("copy")}catch(e){}ta.remove();done(ok?"Copied. Paste into Excel.":"Copy was blocked by this browser.")};
+ if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(tsv).then(()=>done("Copied. Paste into Excel."),fallback);else fallback()}
+
+function showSource(){
+ $("#srcinfo").innerHTML=`<strong>Data from</strong><div class="fn">${window.ERP_CSV?"data/erp-data.js (from the workbook sheets)":Object.values(DATA_FILES).map(esc).join("<br>")}</div><div class="when">${M.db.length} Database rows · ${M.tarp.length} TARP rows · ${allQs().length} questions</div>`;
+ const w=$("#warn");w.hidden=!M.problems.length;w.className="warn";
+ w.innerHTML=M.problems.length?`Check the workbook:<ul>${M.problems.map(p=>`<li>${esc(p)}</li>`).join("")}</ul>`:""}
+function fail(msg){$("#srcinfo").innerHTML=`<strong>Could not load the workbook</strong>`;const w=$("#warn");w.hidden=false;w.className="warn";w.textContent=msg;
+ $("#out").innerHTML=`<div class="state-msg"><strong>No data loaded</strong>${esc(msg)}</div>`}
+function saveAnswers(){try{const a=answers();localStorage.setItem("ctf-ans3",JSON.stringify({pname:a.pname,state:a.state,season:a.season,yes:a.yes.map(q=>q.text)}))}catch(e){}}
+function restoreAnswers(){try{const s=JSON.parse(localStorage.getItem("ctf-ans3")||"null");if(!s)return false;
+  $("#pname").value=s.pname||"";if(M.states.includes(s.state))$("#state").value=s.state;if(SEASONS_DEFAULT.includes(s.season))$("#season").value=s.season;
+  allQs().forEach(q=>document.getElementById(`q${q.idx}-${s.yes.includes(q.text)?"y":"n"}`).checked=true);return true}catch(e){return false}}
+async function getCsv(name,path){
+ /* 1st choice: data/erp-data.js (works everywhere, including a double-clicked local file) */
+ if(window.ERP_CSV&&typeof window.ERP_CSV[name]==="string")return window.ERP_CSV[name];
+ /* fallback: the CSV file itself (works on a web server or SharePoint) */
+ const res=await fetch(path);if(!res.ok)throw new Error(`${path} was not found next to this page (HTTP ${res.status}).`);
+ return await res.text()}
+async function load(){
+ if(typeof XLSX==="undefined"){fail("The CSV reader did not load. Check your internet connection and reload the page.");return}
+ try{const wb={SheetNames:[],Sheets:{}};
+  for(const [name,path] of Object.entries(DATA_FILES)){
+   const text=(await getCsv(name,path)).replace(/^\uFEFF/,"");
+   const csvBook=XLSX.read(text,{type:"string",raw:true});
+   wb.SheetNames.push(name);wb.Sheets[name]=csvBook.Sheets[csvBook.SheetNames[0]]}
+  M=parseWorkbook(wb);buildForm();if(!restoreAnswers())applySheetAnswers();showSource();render();
+ }catch(e){fail(e.message&&e.message.includes("Failed to fetch")?'The data could not be read. Make sure the "data" folder (with erp-data.js) sits next to this page. Run the ExportForWebTool macro in the workbook to create it.':(e.message||"The data could not be read."))}}
+$("#q").addEventListener("input",()=>{render();saveAnswers()});$("#q").addEventListener("change",()=>{render();saveAnswers()});
+$("#q").addEventListener("submit",e=>e.preventDefault());
+$("#allno").addEventListener("click",()=>{allQs().forEach(q=>document.getElementById(`q${q.idx}-n`).checked=true);render();saveAnswers()});
+$("#fromsheet").addEventListener("click",()=>{applySheetAnswers();render();saveAnswers()});
+load();
+</script>
