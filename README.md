@@ -2,7 +2,7 @@ Climate Risk & TARP Tool
 
 This tool helps generate a project-specific Trigger Action Response Plan (TARP). You tell it your project's state, season, construction activity and site conditions, and it shows you the climate hazards that apply, the T1–T3 trigger thresholds, and the mitigation actions for each one.
 
-Anyone on the project team who needs to look up or generate a TARP, even with no technical background at all.
+Anyone on the project team who needs to look up or generate a TARP can use this html page.
 
 Step 1: Get the tool onto your computer
 - Go to the repository page.
