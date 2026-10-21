@@ -1,8 +1,8 @@
-State,Top 3 Climate Hazard,Normal Trigger Threshold,Trigger Threshold 1 (T1),Trigger Threshold 2 (T2),Trigger Threshold 3 (T3),Normal Action Plan,T1 TARP,T2 TARP,T3 TARP,Base Information,,,,,,,,,
-Victoria,Extreme Temperature,No heatwave,"31 - 34°C (Hot day)
-1 - 2 days forecast","35 - 39°C (Very hot day)
-3-4 days forecast","> 40°C (Extreme heat)
-? 5 days forecast or continuous with break < 3 days",,"Monitor:
+ï»¿State,Top 3 Climate Hazard,Normal Trigger Threshold,Trigger Threshold 1 (T1),Trigger Threshold 2 (T2),Trigger Threshold 3 (T3),Normal Action Plan,T1 TARP,T2 TARP,T3 TARP,Base Information,,,,,,,,,
+Victoria,Extreme Temperature,No heatwave,"31 - 34Â°C (Hot day)
+1 - 2 days forecast","35 - 39Â°C (Very hot day)
+3-4 days forecast","> 40Â°C (Extreme heat)
+â‰¥ 5 days forecast or continuous with break < 3 days",,"Monitor:
 - Monitor the forecast for heatwave: https://www.bom.gov.au/weather-and-climate/specialised-forecasts-and-observations/heatwave
 Mitigation:
 - Do pre-start checks on engine coolant, hydraulics and electrical components. Park cranes and vehicles in shade. Shade temperature-sensitive equipment (e.g. with tarpaulin). Use reflective insulation in crane cabins.
@@ -20,12 +20,12 @@ Mitigation:
 - Restrict high-load and heat-intensive operations to cooler periods only, or defer them. Stop any equipment that exceeds manufacturer limits. Allow a cool-down period before restart.
 - Handle hot materials only with mechanical aids. Defer non-essential handling and lifting to cooler periods.
 - Apply a buddy system and frequent symptom checks. Take longer or more frequent rest breaks. Reschedule outdoor work to the coolest period, or stop it.
-- Stop operation when the temperature limit is exceeded, then apply a cool-down period. Decide to resume only after review by the supervisor or site manager.","In hot and dry area, the temperature limit is 33°C (Rowlinson et al. 2014) https://www.sciencedirect.com/science/article/pii/S0001457513003230
+- Stop operation when the temperature limit is exceeded, then apply a cool-down period. Decide to resume only after review by the supervisor or site manager.","In hot and dry area, the temperature limit is 33Â°C (Rowlinson et al. 2014) https://www.sciencedirect.com/science/article/pii/S0001457513003230
 https://www.health.vic.gov.au/environmental-health/planning-for-extreme-heat-and-heatwaves#heatwave-planning-guide-for-residential-aged-care-services",,,,,,,,,
 Victoria,"Coastal erosion, coastal flooding","Erosion Warning Indicators (EWI) = 0 (Normal)
 No significant current erosion","EWI = 1-2 (Low)
-Elevated erosion level","EWI 3-4 (Moderate)
-Active signs of erosion where short-term or localized recessions are starting to outpace historical averages","EWI ? 5 (High)
+Elevated erosion level","EWI = 3-4 (Moderate)
+Active signs of erosion where short-term or localized recessions are starting to outpace historical averages","EWI â‰¥ 5 (High)
 - Wide and high-rate erosion is detected
 - Severe local hotspot threatening an asset/infrastructure",,"Monitor:
 - Inspect erosion and sediment controls (ESCs) at standard minimum,e.g. weekly, before shutdown periods, and after rainfall that generates runoff
@@ -39,7 +39,7 @@ Mitigation:
 - Install silt fence to contain coarse sediment while letting the water pass.
 - Check ESC materials are stocked on-site.
 - Repair or desilt ESCs when capacity falls by 40%, and desilt to keep at least 70% sediment storage capacity. Complete repairs before the next rainfall event
-- Check any discharge against the standard: TSS ? 50 mg/L, pH 6.5-8.5, no visible oil or grease (Section 8.0).
+- Check any discharge against the standard: TSS â‰¤ 50 mg/L, pH 6.5-8.5, no visible oil or grease (Section 8.0).
 Communication:
 - The Site Environmental Advisor and supervisor record the trigger and brief the crew if there is escalation","Monitor:
 - Increase monitoring, inspect daily and after every runoff-generating rainfall event
@@ -76,11 +76,11 @@ Victoria,High Wind,"10 - 19 km/h - Light to gentle breeze
 - Creating risk that is not controlled with the existing measure
 - Raises dust and loose paper
 - Twigs and branches begin to sway until constantly in motion
-- Small to large waves with extensive foam crests","? 46 - 87 km/h - Strong breeze to sustained gale force winds
+- Small to large waves with extensive foam crests","â‰¥ 46 - 87 km/h - Strong breeze to sustained gale force winds
 - Larges branches to whole trees in motion, twigs break off trees
 - Inconvinience walking against the wind
 - Wave crests break to wave crests topple over, and spray affect visibility
-- Slight structural damage (e.g. chimney pots, slates removed)","? 88 km/h (except Tasmania and NSW Alps)
+- Slight structural damage (e.g. chimney pots, slates removed)","â‰¥ 88 km/h (except Tasmania and NSW Alps)
 - Storm
 - Damaging wind gusts
 - Trees uprooted
@@ -135,7 +135,7 @@ Do routine fire inspections and keep fuel breaks, the buffer zone and housekeepi
 Mitigation:
 Re-brief the crew at pre-start. Re-check mowing, debris clearing and the buffer zone. Check extinguishers and exits. Control hot work with fire watch and water on hand. Watch hot, dry, windy conditions.
 - Construction manager: Report the event to the PEMC Lead. Assign personnel to attempt to extinguish the fire if no one has yet. Assign a person to summon Emergency Services if escalation is likely.
-- Fire wardens: Raise the “Standby to Evacuate” alarm.
+- Fire wardens: Raise the â€œStandby to Evacuateâ€ alarm.
 - HSE staff: No action required.","Monitor:
 - Check fire weather forecast: https://www.cfa.vic.gov.au/warnings-and-restrictions/fire-bans-ratings-and-restrictions/total-fire-bans-fire-danger-ratings/total-fire-bans-fire-danger-ratings
 - Check fire weather warning: https://www.bom.gov.au/weather-and-climate/warnings-and-alerts
@@ -144,7 +144,7 @@ Limit ignition-risk work (hot work, grinding, welding) to low-risk times, or def
 - Construction manager:
 Report personnel status to the PEMC Lead. Mobilise the Emergency Response Team (ERT). Identify personnel to assist anyone with limited mobility. Identify personnel to monitor access points and advise of any unauthorised re-entry.
 - Fire wardens:
-Activate the “Evacuate” alarm. Confirm the office and amenities are cleared. Close all doors and windows when checking offices. Account for evacuated personnel.
+Activate the â€œEvacuateâ€ alarm. Confirm the office and amenities are cleared. Close all doors and windows when checking offices. Account for evacuated personnel.
 - HSE staff:
 Conduct a roll call at the muster point. Report personnel status to the Chief Fire Warden and Construction Manager.","Monitor:
 - Check fire weather forecast: https://www.cfa.vic.gov.au/warnings-and-restrictions/fire-bans-ratings-and-restrictions/total-fire-bans-fire-danger-ratings/total-fire-bans-fire-danger-ratings
@@ -210,12 +210,12 @@ FBI = 12-23
 Plan and Prepare
 - Most fires can be controled
 - Stay up to date and be ready to act if there is a fire
-- Small fire contained in waste receptacle – office bin, wheelie bin
+- Small fire contained in waste receptacle â€“ office bin, wheelie bin
 - Extinguished with one fire extinguisher ","FDR = High
 FBI = 24-49
 Be ready to act
 - Fires can be dangerous
-- There’s a heightened risk. Be alert for fires in the area.
+- Thereâ€™s a heightened risk. Be alert for fires in the area.
 - If a fire starts, life and property may be at risk. The safest option is to avoid bushfire risk areas.
 - Localised smoke has developed at fire location
 - Fire cannot be extinguished with one extinguisher
@@ -239,7 +239,7 @@ height
 - Ensure firefighting pumps, hoses, and equipment are serviced and operational.
 
 Fire wardens conduct routine fire management inspections:
-- Equipment – extinguishers, blankets, smoke alarms and alarm raising horns or sirens 
+- Equipment â€“ extinguishers, blankets, smoke alarms and alarm raising horns or sirens 
 - Fire Exits identified, unobstructed 
 - Lead fire drills as scheduled ","Monitor:
 - Check the FDR 4-day forecast daily, monitor fire danger rating: https://www.fire.tas.gov.au/fire-danger-rating/summary/
@@ -249,7 +249,7 @@ Fire wardens conduct routine fire management inspections:
 Site preparation:
 - Secure loose materials
 - Control hot work with a permit and extinguisher at hand
-- Raise the “Standby to Evacuate” alarm
+- Raise the â€œStandby to Evacuateâ€ alarm
 - Ensure property access is kept clear and easily trafficable.
 
 Communication:
@@ -271,7 +271,7 @@ Mitigation:
 
 Escalation:
 - Activate Bushfire Emergency Plan
-- Activate the “Evacuate” alarm
+- Activate the â€œEvacuateâ€ alarm
 - Dial triple zero (000) immediately to notify emergency service
 - Tasmania Fire Service bushfire hotline 1800 000 699
 - Construction manager and fire warden standby, account for all on-site personnels.
@@ -313,7 +313,7 @@ Moderate precipitation
 - Monitor and communicate information relating to flooding to Construction Manager. 
 - Provide advice on environmental preparation. 
 - Conduct inspections as required. ","25-49 mm in 24 hours (50 - 90% chance)
-High precipitation","50- ? 100 mm in 24 hours (50 - 90% chance)
+High precipitation","50- â‰¥ 100 mm in 24 hours (50 - 90% chance)
 Extreme precipitation
 Can trigger flooding:
 - Minor 5% AEP, equivalent to 81.22 mm in 24 hours
@@ -349,13 +349,13 @@ Mitigation:
 - Hand over site status details to emergency services if requested","https://www.bom.gov.au/tas/flood/index.shtml
 https://alert.tas.gov.au/?view=both
 https://connectsci.au/es/article/76/1/ES25026/268509/Contributions-from-different-weather-systems-to",,,,,,,,,
-Tasmania,High Wind,"? 20 km/h - Light to gentle breeze
+Tasmania,High Wind,"â‰¤ 20 km/h - Light to gentle breeze
 Not impacting working @ heights or lifting activities.","20 - 45 km/h - Moderate to strong breeze
 - Monitor and prepare
 - Creating risk that is not controlled with the existing measure
 - Raises dust and loose paper
 - Twigs and branches begin to sway until constantly in motion
-- Small to large waves with extensive foam crests","? 46 - 87 km/h
+- Small to large waves with extensive foam crests","â‰¥ 46 - 87 km/h
 - Strong breeze to sustained gale force winds
 - Larges branches to whole trees in motion, twigs break off trees
 - Inconvinience walking against the wind
@@ -411,9 +411,9 @@ Escalation:
 - Maintain restrictions until wind conditions are safe and the affected areas have been inspected
 - The site manager and relevant competent personnel must authorise the resumption of work under the site's procedures
 - Inspect temporary works, connections, roofing, hoardings and equipment after conditions ease, using competent personnel where required",,,,,,,,,,
-Northern Territory,Bushfire,0 to 11 – No Rating,"12 to 23 - Moderate
-Most fires can be controled","24 to 49 – High
-Fires can be dangerous.","50 to 99 – Extreme
+Northern Territory,Bushfire,0 to 11 â€“ No Rating,"12 to 23 - Moderate
+Most fires can be controled","24 to 49 â€“ High
+Fires can be dangerous.","50 to 99 â€“ Extreme
 Fires will spread quickly and be extremely dangerous.","Monitor:
 Monitor bushfire alerts: https://www.pfes.nt.gov.au/incidentmap
 
@@ -463,12 +463,12 @@ Northern Territory,High Wind,"10 - 19 km/h - Light to gentle breeze
 - Creating risk that is not controlled with the existing measure
 - Raises dust and loose paper
 - Twigs and branches begin to sway until constantly in motion
-- Small to large waves with extensive foam crests","? 46 - 87 km/h
+- Small to large waves with extensive foam crests","â‰¥ 46 - 87 km/h
 - Strong breeze to sustained gale force winds
 - Larges branches to whole trees in motion, twigs break off trees
 - Inconvinience walking against the wind
 - Wave crests break to wave crests topple over, and spray affect visibility
-- Slight structural damage (e.g. chimney pots, slates removed)","? 88 km/h
+- Slight structural damage (e.g. chimney pots, slates removed)","â‰¥ 88 km/h
 - Storm
 - Damaging wind gusts
 - Trees uprooted
@@ -478,7 +478,10 @@ Northern Territory,High Wind,"10 - 19 km/h - Light to gentle breeze
 - Maintain existing bracing, anchoring and temporary supports.
 - Secure loose materials and inspect exposed structures as part of routine site checks.
 - Follow the approved SWMS and equipment operating limits.
-- Continue work under normal controls. Escalate when wind reaches Level 2 or an activity-specific limit is exceeded.","Monitor:
+- Continue work under normal controls. Escalate when wind reaches Level 2 or an activity-specific limit is exceeded.
+
+Preparation:
+- Make sure site manager and all personnels socialized and trained on the emergency response plan","Monitor:
 - Increase wind monitoring, particularly during lifting and work at heights.
 https://www.pfes.nt.gov.au/incidentmap
 https://www.bom.gov.au/marine/wind.shtml?unit=p0&location=nt&tz=AEDT
@@ -501,6 +504,7 @@ Mitigation:
 - Secure or temporarily brace incomplete structures, formwork, hoardings, roofing and facade components according to engineered requirements.
 - Establish exclusion zones around potentially unstable structures and falling-object hazards.
 - Secure materials and equipment; inspect structural connections and temporary supports.
+- Tie down scaffloding
 
 Escalation:
 - Stop affected work immediately when safe operating limits are exceeded.
@@ -518,17 +522,113 @@ Mitigation:
 
 Escalation:
 - Maintain restrictions until wind conditions are safe and the affected areas have been inspected
-- The site manager and relevant competent personnel must authorise the resumption of work under the site's procedures
-- Inspect temporary works, connections, roofing, hoardings and equipment after conditions ease, using competent personnel where required","Severe weather and coastal hazard warning services - BOM (https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services)
+- The site manager and relevant competent personnel must authorise the resumption of work under the site's procedures","Severe weather and coastal hazard warning services - BOM (https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services)
 https://www.pfes.nt.gov.au/incidentmap https://securent.nt.gov.au/prepare-for-an-emergency/weather-events/severe-storms",,,,,,,,,
+Northern Territory,Extreme rainfall,"0.2 - 9 mm in 24 hours (50 - 90% chance)
+Drizzle to light precipitation","10-24 mm in 24 hours (50 - 90% chance)
+Moderate precipitation
+","25-49 mm in 24 hours (50 - 90% chance)
+High precipitation","50- â‰¥ 100 mm in 24 hours (50 - 90% chance)
+Extreme precipitation",,"Monitor:
+Check the rainfall and river condition in NT: https://www.bom.gov.au/nt/flood/index.shtml
+Check the heavy rainfall warning and alert: https://securent.nt.gov.au/alerts-warnings
+Before start the work
+
+Mitigation:
+- Inspect and clear drains and diversion channel before heavy rain
+- Cover excavation
+- Install and maintain sediment controls","Monitor:
+Check the rainfall and river condition in NT: https://www.bom.gov.au/nt/flood/index.shtml
+Check the heavy rainfall warning and alert: https://securent.nt.gov.au/alerts-warnings
+Daily before start the work
+
+Mitigation:
+- Make sure sediment control and stockpile cover are installed and stable
+- Stop lifting and work at high
+- Suspend work when access, slope stability or drainage condistions become unsafe","Monitor:
+Check the rainfall and river condition in NT: https://www.bom.gov.au/nt/flood/index.shtml
+Check the heavy rainfall warning and alert: https://securent.nt.gov.au/alerts-warnings
+Daily before start the work
+
+Mitigation:
+- Stop construction activities and activate site ERP
+- Evacuate workers and visitors from flood-prone areas, excacations, trenches, ustable slopes to safer location
+- Follow emergency service evacuation instructions
+- Contact emergency services if required and communicate site status
+For assistance during floods, storms and cyclones: call 132 500 (NT Emergency Services)
+In emergencies, dial 000",https://www.bom.gov.au/nt/flood/index.shtml,,,,,,,,,
+Northern Territory,Tropical Cyclone,"Category 1
+< 125 km/h
+Minor house damage, causes damage to crops, trees, non-permanent structure, craft or floating structure may drag mooring.","Category 2
+125 - 164 km/h
+Minor house damage,
+significant damage to signs, trees, and caravans, heavy damage to crops, risk of power failure, craft or floating structure may break mooring","Category 3
+165 - 224 km/h
+Roofing and structural damage, non-permanent building may be destroyed, power failures","Category 4
+225 - 279 km/h
+Significant roofing loss and structural damage, non-permanent structures are destroyed and blow away, dangerous airborne debris, widespread power failures","Monitor:
+- Watch for gale warning near the coastal areas or island communities within 24 - 48 hours, warning is usually updated every 6 hours.
+NT warning alerts: https://securent.nt.gov.au/alerts-warnings
+BoM tropical cyclone forecast: https://www.bom.gov.au/cyclone/7dayforecast/
+Monitor radio
+- Check points in Cyclone Preparedness and Response Plan document
+- Do the weekly cyclone checklist during the cyclone season
+
+Mitigation:
+Cyclone watch preparation:
+1. Establish mandatory points at the construction site, planned and prepared before the commencement of the project
+2. Check the emergency plans and point prior to 1st of November if the construction will undergo over the cyclone period
+3. Emergency plan and points implemented and checked prior the 1st of November monitored until the end of April","Monitor:
+Forecast Category 2 cyclone, an official warning indicates increasing risk, or site-specific wind thresholds for restricted operations are reached, monitor radio.
+- NT warning alerts: https://securent.nt.gov.au/alerts-warnings
+- BoM tropical cyclone forecast: https://www.bom.gov.au/cyclone/7dayforecast/
+- Monitor local radio
+- Check and implement points in Cyclone Preparedness and Response Plan document
+- Do the weekly cyclone checklist during the cyclone season
+
+Mitigation:
+- Stop or restrict lifting, roof work, work at height and other exposed activities according to approved wind limits.
+- Secure equipment and materials; lower or park plant in designated safe positions in accordance with manufacturer instructions.
+- Secure site sheds, temporary structures, hoardings and scaffolding as designed.
+- Confirm personnel accountability and evacuation readiness. Suspend operations where safe controls cannot be maintained.
+- Follow NT emergency authorities' directions and prepare to evacuate before routes become unsafe.","Monitor:
+Forecast Category 3 cyclone affecting the site, an official warning indicates a serious threat, or conditions are approaching the site's approved shutdown or evacuation thresholds, monitor radio.
+- NT warning alerts: https://securent.nt.gov.au/alerts-warnings
+- BoM tropical cyclone forecast: https://www.bom.gov.au/cyclone/7dayforecast/
+- Monitor local radio
+- Implement points in Cyclone Preparedness and Response Plan document
+
+Mitigation:
+- Cease exposed construction activities and implement the site's cyclone shutdown procedure.
+- Complete safe shutdown and isolation of equipment where time and conditions permit.
+- Evacuate from cranes, elevated platforms, scaffolds and exposed work areas.
+- Evacuate to the designated cyclone shelter or outside the hazard area as directed by the ERP and emergency authorities.
+- Conduct a personnel headcount and confirm subcontractor accountability.
+- Do not delay evacuation to secure assets.
+- Restrict site access.","Monitor:
+Forecast Category 4 cyclone affecting the site, official evacuation directions, or imminent dangerous conditions, monitor radio.
+- NT warning alerts: https://securent.nt.gov.au/alerts-warnings
+- BoM tropical cyclone forecast: https://www.bom.gov.au/cyclone/7dayforecast/
+- Monitor local radio
+- Implement points in Cyclone Preparedness and Response Plan document
+
+Mitigation:
+- Ensure personnel evacuate to the designated safe location before conditions deteriorate, following official instructions.
+- Do not conduct any non-essential site work or attempt last-minute equipment recovery.
+- Maintain communications and personnel accountability from a safe location.
+- Do not re-enter the site until the relevant authorities and site management confirm it is safe.
+- Following the event, conduct structural, electrical, crane, scaffold, access-road and hazardous-material inspections before authorising a controlled restart.","https://pfes.nt.gov.au/emergency-service/public-safety-advice/natural-disaster-advice/cyclones
+https://ap-plat.nies.go.jp/adaptation_business/infographic/pdf/01-construction.pdf
+https://worksafe.nt.gov.au/forms-and-resources/bulletins/planning-for-severe-weather-events
+https://thinkhazard.org/en/report/17-australia/CY",,,,,,,,,
 Northern Territory,Riverine Flooding,No BoM Flood Watch; nearest gauge below minor flood level,"BoM Flood Watch issued, or gauge rising toward minor flood level
 e.g. Katherine River at Katherine Bridge approaching 16.00 m","BoM Flood Warning: minor to moderate flooding
-e.g. Katherine Bridge 16.00–16.50 m
+e.g. Katherine Bridge 16.00â€“16.50 m
 e.g. Katherine River at Nitmiluk Centre: moderate 5.50 m
 e.g. Daly River at Daly River Police Station: minor 12.60 m","BoM Flood Warning: major flooding, or NT Emergency Service Watch and Act / Emergency Warning
-e.g. Katherine Bridge ? 17.50 m
-e.g. Nitmiluk Centre ? 6.50 m
-e.g. Waterhouse River at Beswick Bridge ? 8.30 m",,"Monitor:
+e.g. Katherine Bridge â‰¥ 17.50 m
+e.g. Nitmiluk Centre â‰¥ 6.50 m
+e.g. Waterhouse River at Beswick Bridge â‰¥ 8.30 m",,"Monitor:
 Check BoM NT Flood Watches and river levels daily: http://www.bom.gov.au/nt/flood/
 Identify the nearest river gauge and its minor, moderate and major levels.
 
@@ -555,11 +655,11 @@ Do not drive, walk or work in floodwater.
 After flooding, inspect excavations, ground stability, temporary works and plant before restarting. Resume only after the site manager approves.",http://www.bom.gov.au/nt/flood/,,,,,,,,,
 Queensland,Coastal Erosion ,"Tide below HAT, no BoM coastal warning
 Offshore wave height (Hs) below 2 m","King tide near HAT, or Hazardous Surf Warning
-Hs 2–3.5 m
-1–2 days forecast","BoM Coastal Hazard Warning (Damaging Surf / Abnormally High Tides)
-Hs ? 3.5 m, or storm tide forecast above HAT
+Hs 2â€“3.5 m
+1â€“2 days forecast","BoM Coastal Hazard Warning (Damaging Surf / Abnormally High Tides)
+Hs â‰¥ 3.5 m, or storm tide forecast above HAT
 Up to 3 days of large waves","BoM Tropical Cyclone Storm Tide Warning
-Storm tide > 1 m above HAT (Red evacuation zone), or Hs ? 5 m
+Storm tide > 1 m above HAT (Red evacuation zone), or Hs â‰¥ 5 m
 Multiple storms in sequence",,"Monitor:
 Check BoM coastal warnings daily: http://www.bom.gov.au/qld/warnings/
 Check tide predictions against HAT for the nearest gauge: https://www.msq.qld.gov.au/tides
@@ -588,20 +688,20 @@ Remove or tie down plant, materials and temporary structures, and isolate power
 Resume work only after an engineer inspects foundations, excavations and access, and the site manager approves","BOM
 
 https://www.disaster.qld.gov.au/__data/assets/pdf_file/0019/337222/Storm-Tide-Handbook.pdf
-The wave height triggers (2–3 m, 3.5 m, 5 m) are based on past data from the Gold Coast Seaway buoy (2006 and 2013 storms). They suit south-east Queensland open coast sites. For other coasts, check the local wave buoy history at https://www.qld.gov.au/waves",3,Critical assets/work areas inundated or evacuation required,,,,,,,
+The wave height triggers (2â€“3 m, 3.5 m, 5 m) are based on past data from the Gold Coast Seaway buoy (2006 and 2013 storms). They suit south-east Queensland open coast sites. For other coasts, check the local wave buoy history at https://www.qld.gov.au/waves",3,Critical assets/work areas inundated or evacuation required,,,,,,,
 Queensland,Rainfall Extremes,"No BoM rainfall warning
-Rainfall below 15 mm in 24 hours","? 15 mm forecast or recorded
+Rainfall below 15 mm in 24 hours","â‰¥ 15 mm forecast or recorded
 Rain or storms forecast
-1–2 days forecast","BoM Severe Weather or Severe Thunderstorm Warning for heavy rainfall
+1â€“2 days forecast","BoM Severe Weather or Severe Thunderstorm Warning for heavy rainfall
 Rainfall above the 10% AEP (1-in-10 chance) for the duration
-e.g. 6-hourly totals 60-90 mm","BoM warning for intense rainfall (“very dangerous thunderstorm”)
+e.g. 6-hourly totals 60-90 mm","BoM warning for intense rainfall (â€œvery dangerous thunderstormâ€)
 Rainfall above the 2% AEP (1-in-50 chance)
 e.g. 6-hourly totals up to 150 mm, or ~70 mm/h or more",,"Monitor:
 Monitor BoM forecasts and the rain radar: http://www.bom.gov.au/qld/warnings/
 Record daily rainfall from a site rain gauge or the nearest BoM station
 
 Mitigation:
-Inspect erosion and sediment controls before forecast rain, and after ?15 mm (MRTS51)
+Inspect erosion and sediment controls before forecast rain, and after â‰¥15 mm (MRTS51)
 Clear drains, sumps and diversion bunds
 Cover stockpiles and open excavations
 Check dewatering pumps and refuel them","Monitor:
@@ -628,7 +728,7 @@ River rising toward minor flood level","BoM Flood Warning: minor to moderate flo
 Nearest gauge at or forecast to reach minor or moderate flood level
 e.g. Brisbane City gauge 1.7-2.6 m","BoM Flood Warning: major flooding
 Nearest gauge at or forecast to reach major flood level
-e.g. Brisbane City gauge ? 3.5 m",,"Monitor:
+e.g. Brisbane City gauge â‰¥ 3.5 m",,"Monitor:
 Monitor BoM Flood Watches and river levels: http://www.bom.gov.au/qld/flood/
 Identify the nearest river gauge and its minor, moderate and major levels: http://www.bom.gov.au/qld/flood/networks/
 
@@ -656,11 +756,11 @@ https://www.qra.qld.gov.au/flood-classifications",,,,,,,,,
 Queensland,Bushfire,"Fire Danger Rating: No rating
 Fire Behaviour Index (FBI) 0-11","FDR Moderate
 FBI 12-23
-“Plan and prepare”","FDR High
+â€œPlan and prepareâ€","FDR High
 FBI 24-49
-“Be ready to act”
+â€œBe ready to actâ€
 or a QFD local fire ban declared for your area","FDR Extreme (FBI 50-99) or Catastrophic (FBI 100+)
-“Take action now” / “Leave bushfire risk areas”
+â€œTake action nowâ€ / â€œLeave bushfire risk areasâ€
 or a State of Fire Emergency declared",,"Monitor:
 Check the QFD fire danger rating and fire bans map daily: https://www.fire.qld.gov.au
 Check BoM fire weather forecasts: https://www.bom.gov.au/resources/learn-and-explore/fire-weather-knowledge-centre/fire-weather-services
@@ -686,11 +786,11 @@ Resume only after QFD warnings ease and the site manager inspects the site.",,,,
 Queensland,High Wind,"No BoM Severe Weather, Severe Thunderstorm or Tropical Cyclone warning
 Site wind within crane and plant limits","Site or forecast wind approaching 54 km/h (15 m/s)
 The safe maximum operating wind speed for tower cranes; the in-service limit for rope luffing tower cranes unless the manufacturer certifies otherwise","BoM warning for damaging winds
-Average ? 63 km/h, or gusts ? 90 km/h
+Average â‰¥ 63 km/h, or gusts â‰¥ 90 km/h
 or wind near 72 km/h (20 m/s), the design operating limit for tower cranes
 or Tropical Cyclone Category 1 (gusts up to 125 km/h)","BoM warning for destructive winds
-Gusts ? 125 km/h, or average ? 89 km/h
-or Tropical Cyclone Category 2+ (gusts 125–164 km/h and above)",,"Monitor:
+Gusts â‰¥ 125 km/h, or average â‰¥ 89 km/h
+or Tropical Cyclone Category 2+ (gusts 125â€“164 km/h and above)",,"Monitor:
 Monitor BoM forecasts and warnings: http://www.bom.gov.au/qld/warnings/
 Monitor wind speed on site with the crane anemometer or a site wind gauge.
 
@@ -703,7 +803,7 @@ Monitor wind continuously. The supervisor checks site wind readings before each 
 Brief the crew on current and forecast conditions.
 
 Mitigation:
-Stop crane lifting when wind reaches the manufacturer’s limit (54 km/h for rope luffing cranes unless certified otherwise).
+Stop crane lifting when wind reaches the manufacturerâ€™s limit (54 km/h for rope luffing cranes unless certified otherwise).
 Stop work at height on exposed scaffolds, roofs and edges.
 Place cranes out of service. Let them weathervane with the boom at the lowest practical angle unless the manufacturer says otherwise.
 Do not lift loads over neighbouring properties.","Monitor:
@@ -711,14 +811,47 @@ Follow BoM destructive wind or Tropical Cyclone warnings and Queensland disaster
 
 Mitigation:
 Stop all outdoor work and move workers to safe shelter, or evacuate if advised.
-Make sure cranes are out of service in the manufacturer’s storm configuration, with wind sails fitted if specified.
+Make sure cranes are out of service in the manufacturerâ€™s storm configuration, with wind sails fitted if specified.
 Remove or tie down materials that could become airborne debris.
 After the event, have cranes, scaffolds and temporary works inspected by a competent person before restarting.","Crane limits come from the WHSQ luffing tower crane alert (2026) and AS 1418.4. Also see the Tower Crane Code of Practice 2017.
-Wind warning criteria come from BoM’s Severe Weather Knowledge Centre.
-Cyclone categories come from BoM’s Tropical Cyclone Knowledge Centre.",,,,,,,,,
+Wind warning criteria come from BoMâ€™s Severe Weather Knowledge Centre.
+Cyclone categories come from BoMâ€™s Tropical Cyclone Knowledge Centre.",,,,,,,,,
+Queensland,Tropical Cyclone,"Outside the cyclone season (1 May â€“ 31 Oct), or in season (1 Nov â€“ 30 Apr) with no tropical low or cyclone in the BoM Tropical Cyclone Outlook for Queensland waters","BoM Tropical Cyclone Outlook shows a moderate or high chance of a cyclone in the Coral Sea or Gulf of Carpentaria, or a tropical low is forecast to develop. Usually 2-7 days ahead",BoM Tropical Cyclone Watch issued for the siteâ€™s coastal area: gales expected within 48 hours but not within 24 hours. Category 1 forecast (gusts below 125 km/h),"BoM Tropical Cyclone Warning issued: gales expected within 24 hours or already occurring, or a Category 2 or higher cyclone is forecast (gusts â‰¥ 125 km/h), or a Storm Tide Warning or evacuation direction is issued for the area",,"Monitor:
+- Check the BoM Tropical Cyclone Outlook and forecast track maps daily: http://www.bom.gov.au/cyclone/
+- Check the local disaster management group and Get Ready Queensland advice: https://www.getready.qld.gov.au
+
+Mitigation:
+- Review the site cyclone and emergency plan, the evacuation route and emergency contacts
+- Brief the crew on the cyclone shutdown sequence and who is responsible for each task
+- Plan to finish or make safe critical activities (lifts, pours, open excavations, work at height) within 48 hours
+- Delay non-essential material deliveries
+- Check crane manufacturer storm configurations, scaffold ties and the wind rating of temporary fencing
+- Arrange for crane, scaffold and electrical contractors to be on call for shutdown and post-event inspections","Monitor:
+Monitor BoM Tropical Cyclone Watch updates (issued every 6 hours) and the forecast track
+Check site wind speed before each lift, and brief the crew at the start of each shift
+
+Mitigation:
+Start site shutdown: stop crane lifting and work at height on exposed scaffolds and roofs
+Put cranes out of service: free to weathervane, hooks raised, lifting gear removed, and mobile crane booms lowered and retracted
+Remove scaffold sheeting and hoardings. Tie down top-lift planks and brace temporary structures
+Secure or remove loose materials, formply, roofing sheets, signage, gas cylinders and fuel. Empty skips
+Cover or backfill excavations, and move plant, vehicles and stockpiles above flood and storm tide level
+Install erosion and sediment controls and check site drainage
+Confirm worker travel plans so everyone is home or sheltered before gales arrive","Monitor:
+Follow BoM Tropical Cyclone and Storm Tide Warnings, and Queensland disaster management advice: https://www.disaster.qld.gov.au
+
+Mitigation:
+Stop all work and close the site. Isolate power, lock the gates and post emergency contacts on the fence
+Evacuate workers from storm tide evacuation zones, or move them to safe shelter if advised
+Make sure no one returns to site until the BoM warning is cancelled and authorities give the all clear","https://www.rockhamptonregion.qld.gov.au/files/assets/public/regional-services/disaster-management/reports/cyclone-digital.pdf
+https://cassowarycoast.qld.gov.au/cyclones
+https://www.stateoftheenvironment.des.qld.gov.au/climate/climate-observations/severe-weather-events-and-associated-flooding-hazard
+https://www.mbqld.com.au/resource-hub/health-safety-and-environment/common-hazards/severe-weather
+https://www.worksafe.qld.gov.au/safety-and-prevention/hazards/workplace-hazards/dangers-in-your-workplace/storms-and-floods
+https://www.disaster.qld.gov.au/__data/assets/pdf_file/0019/337222/Storm-Tide-Handbook.pdf",,,,,,,,,
 South Australia,Coastal Erosion and Flooding,"No BoM Coastal Hazard Warning
 Tides within predicted range","High spring tides forecast, with a strong cold front or Severe Weather Warning for damaging winds
-1–2 days forecast","BoM Coastal Hazard Warning for abnormally high tides and/or damaging surf
+1â€“2 days forecast","BoM Coastal Hazard Warning for abnormally high tides and/or damaging surf
 Sea level forecast above the highest astronomical tide (HAT)
 e.g. May 2025 warning: 3.9 m above LAT, and 4.6 m at Port Pirie","Storm surge at or near recorded extremes
 Surge of ~1.4 m above predicted high tide at Port Adelaide, or ~2.0 m at Port Pirie
@@ -751,11 +884,11 @@ https://cdn.environment.sa.gov.au/environment/docs/no26.pdf
 ",,,,,,,,,
 South Australia,Rainfall Extremes,No BoM rainfall or thunderstorm warning,"Rain, showers or storms forecast; no warning yet
 BoM Flood Watch issued for the catchment
-1–2 days forecast","BoM Severe Weather or Severe Thunderstorm Warning for heavy rainfall
+1â€“2 days forecast","BoM Severe Weather or Severe Thunderstorm Warning for heavy rainfall
 Rainfall above the 10% AEP (1-in-10 chance)
-e.g. 6-hourly 30–70 mm, 24-hourly 40–80 mm","BoM warning for intense rainfall
+e.g. 6-hourly 30â€“70 mm, 24-hourly 40â€“80 mm","BoM warning for intense rainfall
 Rainfall above the 2% AEP (1-in-50 chance)
-e.g. isolated 24-hour totals 120–130 mm",,"Monitor:
+e.g. isolated 24-hour totals 120â€“130 mm",,"Monitor:
 Monitor BoM SA forecasts, rain radar and warnings: http://www.bom.gov.au/sa/warnings/
 Check the hourly and 24-hour rainfall bulletins for your catchment: https://www.bom.gov.au/sa/flood/rain_river.shtml
 
@@ -819,9 +952,9 @@ https://www.bom.gov.au/sa/flood/rain_river.shtml",,,,,,,,,
 South Australia,High Wind,"No BoM Severe Weather or Severe Thunderstorm Warning
 Site wind within crane and plant limits","Site or forecast wind approaching 54 km/h (15 m/s)
 Safe maximum operating wind speed for tower cranes under AS 1418.4","BoM Severe Weather or Severe Thunderstorm Warning for damaging winds
-Average ? 63 km/h, or gusts ? 90 km/h
+Average â‰¥ 63 km/h, or gusts â‰¥ 90 km/h
 or wind near 72 km/h, the tower crane design operating limit","BoM warning for destructive winds
-Gusts ? 125 km/h, or average ? 89 km/h
+Gusts â‰¥ 125 km/h, or average â‰¥ 89 km/h
 or very dangerous thunderstorms or tornadoes reported",,"Monitor:
 Monitor BoM SA forecasts and warnings: http://www.bom.gov.au/sa/warnings/
 Monitor wind speed on site with the crane anemometer or a site wind gauge.
@@ -835,74 +968,76 @@ Monitor wind continuously. The supervisor checks site readings before each lift.
 Brief the crew on current and forecast conditions, especially cold fronts and thunderstorms.
 
 Mitigation:
-Stop crane lifting at the manufacturer’s wind limit.
+Stop crane lifting at the manufacturerâ€™s wind limit.
 Stop work at height on exposed scaffolds, roofs and edges.
-Place cranes out of service in the manufacturer’s configuration.
+Place cranes out of service in the manufacturerâ€™s configuration.
 Move workers away from structures, fencing and stockpiles that could be blown over.","Monitor:
 Follow BoM destructive wind and severe thunderstorm warnings, and SA SES advice: https://www.alert.sa.gov.au
 
 Mitigation:
 Stop all outdoor work and move workers to safe shelter.
 Isolate power to temporary structures where safe to do so.
-Do not restart until cranes, scaffolds, temporary works and power lines have been inspected by a competent person.","Wind warning criteria come from BoM’s Severe Weather Knowledge Centre.
+Do not restart until cranes, scaffolds, temporary works and power lines have been inspected by a competent person.","Wind warning criteria come from BoMâ€™s Severe Weather Knowledge Centre.
 Crane limits come from AS 1418.4, as cited in the WHSQ luffing tower crane alert.
-The 2016 tornado figures are past data from BoM’s report, as reported by ESD News",,,,,,,,,
+The 2016 tornado figures are past data from BoMâ€™s report, as reported by ESD News",,,,,,,,,
 New South Wales,Coastal Erosion and Flooding,"No relevant warning.
 Shoreline, tide and access within site limits.","Large swell/high tides forecast, SES Advice, or increasing shoreline erosion.","Coastal Hazard Warning for damaging surf/abnormally high tides, or overtopping/scour reaches a site action trigger.","Emergency Warning, evacuation direction, or imminent inundation/ground collapse.","Check tides, forecasts, shoreline and access before work. Confirm surveyed withdrawal levels and safe routes.","Monitor: tides and shoreline changes.
-Prepare: secure stockpiles/fuel; inspect protection; brief crews on withdrawal routes.",Stop exposed coastal work. Move people/plant inland while safe. Engineer checks scoured edges and temporary works.,Follow SES evacuation/shelter directions. Roll call; call 000 for life-threatening danger. Restart after competent inspection and manager approval.,"NSW SES — Prepare for coastal erosion
+Prepare: secure stockpiles/fuel; inspect protection; brief crews on withdrawal routes.",Stop exposed coastal work. Move people/plant inland while safe. Engineer checks scoured edges and temporary works.,Follow SES evacuation/shelter directions. Roll call; call 000 for life-threatening danger. Restart after competent inspection and manager approval.,"NSW SES â€” Prepare for coastal erosion
 https://www.ses.nsw.gov.au/prepare-coastal-erosion",,,,,,,,,
 New South Wales,Riverine Flooding,"No Flood Watch/Warning.
 River and site access below local action levels.",Flood Watch for the contributing catchment; typically up to 4 days ahead. Upstream levels rising.,"Minor/moderate Flood Warning, or forecast level reaches the site's earlier withdrawal trigger.","Major flooding threatens the site, an evacuation direction, or unsafe access/inundation is imminent.","Identify the correct gauge and site flood levels. Keep escape routes, high-ground storage and communications ready.","Monitor: upstream rainfall and river gauges.
-Prepare: test pumps; relocate fuel/materials; brief crews and confirm transport.",Stop work in/near water and threatened excavations. Move people/plant to high ground before access closes; isolate services if safe.,Activate evacuation before routes flood. No floodwater entry. Roll call; call 000 for life-threatening danger. Inspect ground/services before authorised restart.,"BoM — Flood warning services
+Prepare: test pumps; relocate fuel/materials; brief crews and confirm transport.",Stop work in/near water and threatened excavations. Move people/plant to high ground before access closes; isolate services if safe.,Activate evacuation before routes flood. No floodwater entry. Roll call; call 000 for life-threatening danger. Inspect ground/services before authorised restart.,"BoM â€” Flood warning services
 https://www.bom.gov.au/resources/learn-and-explore/flood-knowledge-centre/flood-warning-services",,,,,,,,,
 New South Wales,Rainfall Extremes,"No heavy-rain warning.
 Drainage, ground and access serviceable.","Heavy rain/storms forecast, rising runoff, or local rainfall preparation trigger reached.","BoM heavy-rain warning, drainage capacity exceeded, or water/instability threatens excavations and access.","Intense-rain/flash-flood warning affects the site, rapid inundation/ground failure, or evacuation direction.","Inspect drains, sumps, pumps, excavation support and sediment controls. Confirm local rainfall/runoff triggers.","Monitor: radar and site rain gauge.
-Prepare: clear drains, test pumps, secure stockpiles and move chemicals out of runoff paths.",Stop affected excavation/lifting work. Clear low areas; isolate unsafe power if safe; close flooded access. Pumping alone does not prove ground stability.,Move to the planned safe area before routes flood; follow evacuation/shelter directions. No floodwater entry. Inspect ground/supports/services before manager-approved restart.,"BoM — Severe thunderstorms
+Prepare: clear drains, test pumps, secure stockpiles and move chemicals out of runoff paths.",Stop affected excavation/lifting work. Clear low areas; isolate unsafe power if safe; close flooded access. Pumping alone does not prove ground stability.,Move to the planned safe area before routes flood; follow evacuation/shelter directions. No floodwater entry. Inspect ground/supports/services before manager-approved restart.,"BoM â€” Severe thunderstorms
 https://www.bom.gov.au/news-and-media/severe-thunderstorms-what-you-need-to-know",,,,,,,,,
 New South Wales,Bushfire,"FDR: No Rating
-FBI 0–11
+FBI 0â€“11
 No active fire threat.","FDR: Moderate
-FBI 12–23
-Plan and prepare.","FDR: High (FBI 24–49), Total Fire Ban, or applicable Watch and Act.",Extreme (FBI 50–99) or Catastrophic (FBI ?100); fire/ember threat or Emergency Warning.,"Check FDR, fire bans and incident warnings daily. Maintain clear access, fuel separation, extinguishers and evacuation arrangements.","Monitor: RFS/Hazards Near Me and wind/smoke.
+FBI 12â€“23
+Plan and prepare.","FDR: High (FBI 24â€“49), Total Fire Ban, or applicable Watch and Act.",Extreme (FBI 50â€“99) or Catastrophic (FBI â‰¥100); fire/ember threat or Emergency Warning.,"Check FDR, fire bans and incident warnings daily. Maintain clear access, fuel separation, extinguishers and evacuation arrangements.","Monitor: RFS/Hazards Near Me and wind/smoke.
 Prepare: clear combustible waste; check water, fire watch and exits; review ignition-risk tasks.","Review/restrict ignition-risk work. During a Total Fire Ban, no open-air welding/grinding/gas cutting unless a valid RFS exemption applies.
 Manager prepares early relocation.","Extreme: stop ignition-risk work; manager reviews closure.
 Catastrophic: leave exposed sites early.
-Fire/Warning: follow authority directions, roll call; 000 for life-threatening danger.","BoM — Fire weather services (FBI/FDR)
+Fire/Warning: follow authority directions, roll call; 000 for life-threatening danger.","BoM â€” Fire weather services (FBI/FDR)
 https://www.bom.gov.au/resources/learn-and-explore/fire-weather-knowledge-centre/fire-weather-services",,,,,,,,,
 Western Australia,Coastal Erosion and Flooding,"No relevant warning.
-Coastline, tide and access within site limits.","Large swell/high tides forecast, Advice, or Cyclone Watch: gales in 24–48 h at affected sites.","Coastal Hazard Warning, Cyclone Warning: gales within 24 h/occurring, Watch and Act, or overtopping/scour.","Emergency Warning, evacuation direction, or imminent storm surge/ground collapse.","Check tide/surge exposure, surveyed levels, stable ground and relocation time. Confirm shelter outside surge/flood zones.","Monitor: BoM and Emergency WA.
-Prepare: secure materials, verify anchors/bracing, and arrange transport before the cyclone or high tide.",Close exposed coastal work fronts. Relocate people/plant before access is cut; isolate services if safe. Exclude scoured/undermined edges.,Follow evacuation/shelter directions. Use shelter outside surge zones; no unsafe travel. Roll call; 000 for life-threatening danger. Inspect before authorised restart.,"BoM — Coastal hazard warning criteria
+Coastline, tide and access within site limits.","Large swell/high tides forecast, Advice, or Cyclone Watch: gales in 24â€“48 h at affected sites.","Coastal Hazard Warning, Cyclone Warning: gales within 24 h/occurring, Watch and Act, or overtopping/scour.","Emergency Warning, evacuation direction, or imminent storm surge/ground collapse.","Check tide/surge exposure, surveyed levels, stable ground and relocation time. Confirm shelter outside surge/flood zones.","Monitor: BoM and Emergency WA.
+Prepare: secure materials, verify anchors/bracing, and arrange transport before the cyclone or high tide.",Close exposed coastal work fronts. Relocate people/plant before access is cut; isolate services if safe. Exclude scoured/undermined edges.,Follow evacuation/shelter directions. Use shelter outside surge zones; no unsafe travel. Roll call; 000 for life-threatening danger. Inspect before authorised restart.,"BoM â€” Coastal hazard warning criteria
 https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services",,,,,,,,,
 Western Australia,Rainfall Extremes,"No heavy-rain warning.
 Drainage, ground and access serviceable.","Heavy rain/storms forecast, rising runoff, or local rainfall preparation trigger reached.","BoM heavy-rain warning, drainage capacity exceeded, or water/instability threatens excavations and access.","Intense-rain/flash-flood warning affects the site, rapid inundation/ground failure, or evacuation direction.","Inspect drains, sumps, pumps, excavation support and sediment controls. Confirm local rainfall/runoff triggers.","Monitor: radar and site rain gauge.
-Prepare: clear drains, test pumps, secure stockpiles and move chemicals out of runoff paths.",Stop affected excavation/lifting work. Clear low areas; isolate unsafe power if safe; close flooded access. Pumping alone does not prove ground stability.,Move to the planned safe area before routes flood; follow evacuation/shelter directions. No floodwater entry. Inspect ground/supports/services before manager-approved restart.,"BoM — Severe thunderstorms
+Prepare: clear drains, test pumps, secure stockpiles and move chemicals out of runoff paths.",Stop affected excavation/lifting work. Clear low areas; isolate unsafe power if safe; close flooded access. Pumping alone does not prove ground stability.,Move to the planned safe area before routes flood; follow evacuation/shelter directions. No floodwater entry. Inspect ground/supports/services before manager-approved restart.,"BoM â€” Severe thunderstorms
 https://www.bom.gov.au/news-and-media/severe-thunderstorms-what-you-need-to-know",,,,,,,,,
 Western Australia,Temperature Extremes,"No relevant heatwave warning.
 Task heat assessment and cooling controls in place.","Severe/extreme heatwave forecast, increasing heat strain, or poor overnight recovery.","Heat-illness symptoms, assessed heat-action limit, failed water/cooling, or plant temperature limit reached.","Suspected heatstroke: confusion, collapse, seizure or altered consciousness. Act immediately.","Assess workload, humidity, radiant heat, PPE and acclimatisation. Provide shade/cooling, drinking water and first aid.","Prepare: move heavy work to cooler hours; add cool rest breaks and buddy checks.
-Encourage about 200 mL water every 15–20 min while working in heat.",Stop affected work. Move the worker to a cool area; first aider assesses and seeks medical help. Stop overheated plant; restore controls before reuse.,Call 000 for suspected heatstroke. Start cooling immediately and follow ambulance/first-aid directions. Stay with the person; review controls before work restarts.,"Safe Work Australia — Working in heat (PDF)
+Encourage about 200 mL water every 15â€“20 min while working in heat.",Stop affected work. Move the worker to a cool area; first aider assesses and seeks medical help. Stop overheated plant; restore controls before reuse.,Call 000 for suspected heatstroke. Start cooling immediately and follow ambulance/first-aid directions. Stay with the person; review controls before work restarts.,"Safe Work Australia â€” Working in heat (PDF)
 https://www.safeworkaustralia.gov.au/sites/default/files/2021-10/Guide%20for%20managing%20the%20risks%20of%20working%20in%20heat.pdf",,,,,,,,,
 Western Australia,Bushfire,"FDR: No Rating
-FBI 0–11
+FBI 0â€“11
 No active fire threat.","FDR: Moderate
-FBI 12–23
-Plan and prepare.","FDR: High (FBI 24–49), Total Fire Ban, or applicable Watch and Act.",Extreme (FBI 50–99) or Catastrophic (FBI ?100); fire/ember threat or Emergency Warning.,"Check FDR, fire bans and incident warnings daily. Maintain clear access, fuel separation, extinguishers and evacuation arrangements.","Monitor: Emergency WA and wind/smoke.
-Prepare: clear combustible waste; check water, fire watch and exits; review ignition-risk tasks.","Review/restrict ignition-risk work. Eligible business hot work during a Total Fire Ban requires DFES/local-government notification 30 min–24 h before work and all conditions met.
+FBI 12â€“23
+Plan and prepare.","FDR: High (FBI 24â€“49), Total Fire Ban, or applicable Watch and Act.",Extreme (FBI 50â€“99) or Catastrophic (FBI â‰¥100); fire/ember threat or Emergency Warning.,"Check FDR, fire bans and incident warnings daily. Maintain clear access, fuel separation, extinguishers and evacuation arrangements.","Monitor: Emergency WA and wind/smoke.
+Prepare: clear combustible waste; check water, fire watch and exits; review ignition-risk tasks.","Review/restrict ignition-risk work. Eligible business hot work during a Total Fire Ban requires DFES/local-government notification 30 minâ€“24 h before work and all conditions met.
 Check local movement bans.","Extreme: stop ignition-risk work; manager reviews closure.
 Catastrophic: leave exposed sites early.
-Fire/Warning: follow authority directions, roll call; 000 for life-threatening danger.","BoM — Fire weather services (FBI/FDR)
+Fire/Warning: follow authority directions, roll call; 000 for life-threatening danger.","BoM â€” Fire weather services (FBI/FDR)
 https://www.bom.gov.au/resources/learn-and-explore/fire-weather-knowledge-centre/fire-weather-services",,,,,,,,,
 Northern Territory,Coastal Erosion and Flooding,"No relevant warning.
-Coastline, tide and access within site limits.","Large swell/high tides forecast, Advice, or Cyclone Watch: gales in 24–48 h at affected sites.","Coastal Hazard Warning, Cyclone Warning: gales within 24 h/occurring, Watch and Act, or overtopping/scour.","Emergency Warning, evacuation direction, or imminent storm surge/ground collapse.","Check tide/surge exposure, surveyed levels, stable ground and relocation time. Confirm shelter outside surge/flood zones.","Monitor: BoM and SecureNT.
-Prepare: secure materials, verify anchors/bracing, and arrange transport before the cyclone or high tide.",Close exposed coastal work fronts. Relocate people/plant before access is cut; isolate services if safe. Exclude scoured/undermined edges.,Follow evacuation/shelter directions. Use shelter outside surge zones; no unsafe travel. Roll call; 000 for life-threatening danger. Inspect before authorised restart.,"BoM — Coastal hazard warning criteria
+Coastline, tide and access within site limits.","Large swell/high tides forecast, Advice, or Cyclone Watch: gales in 24â€“48 h at affected sites.","Coastal Hazard Warning, Cyclone Warning: gales within 24 h/occurring, Watch and Act, or overtopping/scour.","Emergency Warning, evacuation direction, or imminent storm surge/ground collapse.","Check tide/surge exposure, surveyed levels, stable ground and relocation time. Confirm shelter outside surge/flood zones.","Monitor: BoM and SecureNT.
+Prepare: secure materials, verify anchors/bracing, and arrange transport before the cyclone or high tide.",Close exposed coastal work fronts. Relocate people/plant before access is cut; isolate services if safe. Exclude scoured/undermined edges.,Follow evacuation/shelter directions. Use shelter outside surge zones; no unsafe travel. Roll call; 000 for life-threatening danger. Inspect before authorised restart.,"BoM â€” Coastal hazard warning criteria
 https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services",,,,,,,,,
 New South Wales,High Wind,"No applicable wind warning.
-Wind below task limits; plant, fixings and bracing secure.","Wind approaches the approved preparation trigger, below the task stop limit.","Task wind limit reached/unsafe gusts, or BoM damaging-wind warning: mean ?63 km/h or gust ?90 km/h.
-NSW Alps >1900 m: mean ?80 or gust ?125 km/h.",Destructive winds forecast/observed: mean ?89 km/h or gust ?125 km/h; uncontrolled debris/instability or Emergency Warning.,"Confirm manufacturer/load-specific wind limits, anemometer, bracing, material restraints and suitable shelter. Check BoM forecasts before each shift.","Monitor: site wind and forecast gusts.
-Prepare: secure sheeting/tools, check scaffold ties and stop high-sail-area lifts early. Brief crews on stop authority.","Stop affected lifting, height and scaffold work at the lower task limit. Clear exclusion zones. Place plant in manufacturer storm configuration while safe. ",Stop exposed outdoor work; use designated shelter or directed evacuation before unsafe travel. Roll call; 000 for life-threatening danger. Competent inspection and manager approval before restart.,"BoM — Severe weather warning criteria
+Wind below task limits; plant, fixings and bracing secure.","Wind approaches the approved preparation trigger, below the task stop limit.","Task wind limit reached/unsafe gusts, or BoM damaging-wind warning: mean â‰¥63 km/h or gust â‰¥90 km/h.
+NSW Alps >1900 m: mean â‰¥80 or gust â‰¥125 km/h.",Destructive winds forecast/observed: mean â‰¥89 km/h or gust â‰¥125 km/h; uncontrolled debris/instability or Emergency Warning.,"Confirm manufacturer/load-specific wind limits, anemometer, bracing, material restraints and suitable shelter. Check BoM forecasts before each shift.","Monitor: site wind and forecast gusts.
+Prepare: secure sheeting/tools, check scaffold ties and stop high-sail-area lifts early. Brief crews on stop authority.","Stop affected lifting, height and scaffold work at the lower task limit. Clear exclusion zones. Place plant in manufacturer storm configuration while safe. ",Stop exposed outdoor work; use designated shelter or directed evacuation before unsafe travel. Roll call; 000 for life-threatening danger. Competent inspection and manager approval before restart.,"BoM â€” Severe weather warning criteria
 https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services",,,,,,,,,
 Western Australia,High Wind,"No applicable wind warning.
 Wind below task limits; plant, fixings and bracing secure.","Wind approaches the approved preparation trigger, below the task stop limit.
-Cyclone Watch: gales in 24–48 h; Emergency WA Advice.","Task wind limit reached/unsafe gusts, or BoM damaging-wind warning: mean ?63 km/h or gust ?90 km/h.
-Cyclone Warning: within 24 h/occurring, or Watch and Act.",Destructive winds forecast/observed: mean ?89 km/h or gust ?125 km/h; uncontrolled debris/instability or Emergency Warning.,"Confirm manufacturer/load-specific wind limits, anemometer, bracing, material restraints and suitable shelter. Check Emergency WA and relocation time.","Monitor: site wind and forecast gusts.
-Prepare: secure sheeting/tools, check scaffold ties and stop high-sail-area lifts early. Prepare cyclone shutdown and early relocation.","Stop affected lifting, height and scaffold work at the lower task limit. Clear exclusion zones. Place plant in manufacturer storm configuration while safe. Complete required relocation before gales.",Stop exposed outdoor work; use designated shelter or directed evacuation before unsafe travel. Roll call; 000 for life-threatening danger. Competent inspection and manager approval before restart.,"BoM — Severe weather warning criteria
+Cyclone Watch: gales in 24â€“48 h; Emergency WA Advice.","Task wind limit reached/unsafe gusts, or BoM damaging-wind warning: mean â‰¥63 km/h or gust â‰¥90 km/h.
+Cyclone Warning: within 24 h/occurring, or Watch and Act.",Destructive winds forecast/observed: mean â‰¥89 km/h or gust â‰¥125 km/h; uncontrolled debris/instability or Emergency Warning.,"Confirm manufacturer/load-specific wind limits, anemometer, bracing, material restraints and suitable shelter. Check Emergency WA and relocation time.","Monitor: site wind and forecast gusts.
+Prepare: secure sheeting/tools, check scaffold ties and stop high-sail-area lifts early. Prepare cyclone shutdown and early relocation.","Stop affected lifting, height and scaffold work at the lower task limit. Clear exclusion zones. Place plant in manufacturer storm configuration while safe. Complete required relocation before gales.",Stop exposed outdoor work; use designated shelter or directed evacuation before unsafe travel. Roll call; 000 for life-threatening danger. Competent inspection and manager approval before restart.,"BoM â€” Severe weather warning criteria
 https://www.bom.gov.au/resources/learn-and-explore/severe-weather-knowledge-centre/severe-weather-and-coastal-hazard-warning-services",,,,,,,,,
+Western Australia,Tropical Cyclone,No relevant cyclone/associated weather warning; conditions below task limits. Maintain readiness year-round.,"BoM Watch: gales in 24â€“48 h, or local Emergency WA Advice. Start earlier for remote-site lead times.","BoM Warning: gales within 24 h/already occurring, local Watch and Act, or earlier site/task trigger. Finish relocation before gales/route closure.","Local Emergency Warning or immediate wind/flood/surge danger, including a weakened cyclone. Follow shelter/evacuation instructions; avoid unsafe travel.","Supervisor: verify camp anchorage, suitable shelter outside flood/surge exposure, supplies, backup communications and shutdown/relocation lead times.",Prepare: monitor BoM/Emergency WA; secure loose items and configure plant while safe. Brief crews and arrange early relocation.,Stop affected work. Manager completes safe shutdown and early relocation; roll call. Do not send crews back into gales.,Shelter as directed; account for everyone. Use backup communications; 000 for life-threatening danger. Competent inspection and manager approval before restart.,"WA Government â€” State Hazard Plan: Severe Weather
+https://www.wa.gov.au/system/files/2024-07/shp_severeweather_v1.01_0_85264.pdf",,,,,,,,,

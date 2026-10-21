@@ -1,5 +1,5 @@
-﻿PIC,Risk ID,State,Season,Climate Hazards,Risk Level,Question and Response,,,,,,,,,,,,,,Climate Hazard Details,Exposure,Vulnerability,Construction Risk Event,Consequence,Mitigation,Trigger Threshold,TARP,Source
-,,,,,,Coastal,Bushfire-prone,Flood-prone,Work at height,Excavation,Crane or lifting,Hazardous dust or fibres,Heavy vehicles overnight,Piling,"Work in, over or adjacent to water",Plant or equipmet overnight,Scaffolding,Hot work,"Soil, spoil or waste stockpiles",,,,,,,,,
+﻿PIC,Risk ID,State,Season,Climate Hazards,Risk Level,Question and Response,,,,,,,,,,,,,,Climate Hazard Details,Exposure,Vulnerability,Construction Risk Event,Consequence,Mitigation
+,,,,,,Coastal,Bushfire-prone,Flood-prone,Work at height,Excavation,Crane or lifting,Hazardous dust or fibres,Heavy vehicles overnight,Piling,"Work in, over or adjacent to water",Plant or equipmet overnight,Scaffolding,Hot work,"Soil, spoil or waste stockpiles",,,,,,
 Loven,VIC-TE-01,Victoria,Spring,Temperature Extreme (Heat Extreme),Extreme,No,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,No,"The risk of temperature increase in Victoria is very high due to strong agreement between observations and projections. Observations show intensified and more frequent heatwaves, earlier heatwave seasons, and record‑breaking temperatures, consistent with climate change. Projections indicate substantial increases in heatwave frequency, intensity, and duration. With almost certain likelihood and moderate consequences, and high agreement with robust evidence, this supports a very high risk level."," - Construction equipment sensitive to extreme heat; exposed equipment and materials
 - Construction materials and exposed metal surfaces subjected to extreme heat
 - Crane operators and workers exposed to extreme heat
@@ -19,8 +19,7 @@ Loven,VIC-TE-01,Victoria,Spring,Temperature Extreme (Heat Extreme),Extreme,No,Ye
 
 - Provide cool drinking water; increase rest breaks in cool/shaded areas; improve ventilation/air conditioning, if outdoors using outdoor misting fan; monitor workers for heat-illness symptoms.
 
-- Install/maintain alarms or temperature monitoring where provided; apply cool down period and stop operation when temperature limit is exceeded.",,,"https://www.aorcranes.com.au/how-weather-conditions-affect-crane-operation-and-lifting/;
-https://abccranehire.com.au/3-steps-to-ensure-safe-crane-operation-during-summer/"
+- Install/maintain alarms or temperature monitoring where provided; apply cool down period and stop operation when temperature limit is exceeded."
 Loven,VIC-TE-01,Victoria,Summer,Temperature Extreme (Heat Extreme),Extreme,No,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,No,"The risk of temperature increase in Victoria is very high due to strong agreement between observations and projections. Observations show intensified and more frequent heatwaves, earlier heatwave seasons, and record‑breaking temperatures, consistent with climate change. Projections indicate substantial increases in heatwave frequency, intensity, and duration. With almost certain likelihood and moderate consequences, and high agreement with robust evidence, this supports a very high risk level."," - Construction equipment sensitive to extreme heat; exposed equipment and materials
 - Construction materials and exposed metal surfaces subjected to extreme heat
 - Crane operators and workers exposed to extreme heat
@@ -40,9 +39,8 @@ Loven,VIC-TE-01,Victoria,Summer,Temperature Extreme (Heat Extreme),Extreme,No,Ye
 
 - Provide cool drinking water; increase rest breaks in cool/shaded areas; improve ventilation/air conditioning, if outdoors using outdoor misting fan; monitor workers for heat-illness symptoms.
 
-- Install/maintain alarms or temperature monitoring where provided; apply cool down period and stop operation when temperature limit is exceeded.",,,"https://www.aorcranes.com.au/how-weather-conditions-affect-crane-operation-and-lifting/;
-https://abccranehire.com.au/3-steps-to-ensure-safe-crane-operation-during-summer/"
-Loven,VIC-CEF-01,Victoria ,Autumn,"Coastal erosion, coastal flooding",Extreme,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,"- Observed: Sea level rise is accelerating, consistent with the upper range of projected trends, indicating an already intensifying hazard.
+- Install/maintain alarms or temperature monitoring where provided; apply cool down period and stop operation when temperature limit is exceeded."
+Loven,VIC-CEF-01,Victoria ,Autumn,Coastal Erosion and Flooding,Extreme,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,"- Observed: Sea level rise is accelerating, consistent with the upper range of projected trends, indicating an already intensifying hazard.
 - Projected: By ~2120, sea levels are expected to rise substantially, with ~0.79–1.08 m (median) and up to ~1.12–1.50 m (upper range) depending on emissions scenario, with higher rise in eastern regions.
 - Likelihood: Continued sea level rise is almost certain, with high confidence given strong agreement between observed acceleration and model projections (CSIRO, 2024).
 
@@ -73,8 +71,8 @@ As the impact of East Coast Low (ECL) during autumn - winter (CoastAdapt, 2025)"
 - Injury, foundation damage, work stoppage
 - Asset damage, repair costs, work stoppage","- Apply permeating grouting 
 - Put silt fence to contain coarse sediments and to allow water to flow through the fence
-- Use erosion control blanket to protect disturbed/open sediment in the waterfront",,,
-Loven,VIC-CEF-02,Victoria ,Winter,"Coastal erosion, coastal flooding",Extreme,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,"- Observed: Sea level rise is accelerating, consistent with the upper range of projected trends, indicating an already intensifying hazard.
+- Use erosion control blanket to protect disturbed/open sediment in the waterfront"
+Loven,VIC-CEF-02,Victoria ,Winter,Coastal Erosion and Flooding,Extreme,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,"- Observed: Sea level rise is accelerating, consistent with the upper range of projected trends, indicating an already intensifying hazard.
 - Projected: By ~2120, sea levels are expected to rise substantially, with ~0.79–1.08 m (median) and up to ~1.12–1.50 m (upper range) depending on emissions scenario, with higher rise in eastern regions.
 - Likelihood: Continued sea level rise is almost certain, with high confidence given strong agreement between observed acceleration and model projections (CSIRO, 2024).
 
@@ -89,7 +87,7 @@ As the impact of East Coast Low (ECL) during autumn - winter (CoastAdapt, 2025)"
 Erosion may undermine temporary structures, foundations and access routes, particularly after severe coastal storms.
 Floodwater or saltwater exposure may also affect electrical systems, equipment and stored materials.",,"- Apply permeating grouting 
 - Put silt fence to contain coarse sediments and to allow water to flow through the fence
-- Use erosion control blanket to protect disturbed/open sediment in the waterfront",,,
+- Use erosion control blanket to protect disturbed/open sediment in the waterfront"
 Loven,VIC-HW-01,Victoria,Winter,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,,Work at height in coastal area,"- High building, crane activities are susceptible to high winds
 - Construction shape, size, and facing direction exposed to the coming wind will more likely swept or impacted
 - Construction fall off, removed structure, wall failure, and removed roofing
@@ -105,7 +103,7 @@ Loven,VIC-HW-01,Victoria,Winter,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Ye
 - Secure incomplete structures and provide temporary bracing/support until permanent stability is achieved.
 - Ensure structural components are securely connected and inspect connections before high-wind events.
 - Consider local terrain and wind exposure when planning construction and temporary works.
-- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements.",,,
+- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements."
 Loven,VIC-HW-01,Victoria,Spring,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,,Work at height in coastal area,"- High building, crane activities are susceptible to high winds
 - Construction shape, size, and facing direction exposed to the coming wind will more likely swept or impacted
 - Construction fall off, removed structure, wall failure, and removed roofing
@@ -121,7 +119,7 @@ Loven,VIC-HW-01,Victoria,Spring,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Ye
 - Secure incomplete structures and provide temporary bracing/support until permanent stability is achieved.
 - Ensure structural components are securely connected and inspect connections before high-wind events.
 - Consider local terrain and wind exposure when planning construction and temporary works.
-- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements.",,,
+- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements."
 Loven,VIC-BF-01,Victoria ,Summer,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"- Observation: Fire activity and fire weather have already increased in Victoria and other fire-prone ecosystems, including longer fire seasons and more frequent days of high fire danger, with low fuel moisture already contributing to ignition risk under current conditions.
 - Projection: Under continued global warming, fire weather, ignition risk, and overall fire activity are projected to intensify across many parts of south-east Australia, including Victoria, with particularly strong links to warmer and drier future climates affecting both forest/woodland and other ecosystems.
 - Likelihood: There is strong and robust evidence that these trends are already occurring and will very likely continue and escalate with increasing global temperatures, although the magnitude and spatial distribution of changes will vary depending on local fire conditions and ecosystem type
@@ -134,7 +132,7 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,VIC-BF-02,Victoria ,Summer,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -143,14 +141,14 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,VIC-BF-03,Victoria ,Summer,Bushfire,Extreme,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
 Smoke and radiant heat may make outdoor work unsafe even when the fire has not reached the site.
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,VIC-BF-01,Victoria ,Spring,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"- Observation: Fire activity and fire weather have already increased in Victoria and other fire-prone ecosystems, including longer fire seasons and more frequent days of high fire danger, with low fuel moisture already contributing to ignition risk under current conditions.
 - Projection: Under continued global warming, fire weather, ignition risk, and overall fire activity are projected to intensify across many parts of south-east Australia, including Victoria, with particularly strong links to warmer and drier future climates affecting both forest/woodland and other ecosystems.
 - Likelihood: There is strong and robust evidence that these trends are already occurring and will very likely continue and escalate with increasing global temperatures, although the magnitude and spatial distribution of changes will vary depending on local fire conditions and ecosystem type
@@ -163,7 +161,7 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,VIC-BF-02,Victoria ,Spring,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -172,14 +170,14 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,VIC-BF-03,Victoria ,Spring,Bushfire,Extreme,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
 Smoke and radiant heat may make outdoor work unsafe even when the fire has not reached the site.
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,TAS-CEF-01,Tasmania ,Autumn,Coastal Erosion and Flooding,High,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Yes,No,No,No,"The risk of coastal erosion and flooding in Tasmania is high due to strong agreement between observations and projections. Observed shoreline retreat, frequent flooding in low-lying areas, and past storm impacts align with projections of rising sea levels and significant increases in flood frequency and extent. With likely occurrence and moderate consequences, this consistent evidence supports a high risk classification.",,"- Compound flooding/inundation of low lying areas to storm surge and tidal flood
 - Restricted access to roads temporarily depending on the period of the flooding
 - Construction materials, concrete washout, soil, spoil, and waste into coastal waters or adjacent land cause construction pollution
@@ -190,7 +188,7 @@ Loven,TAS-CEF-01,Tasmania ,Autumn,Coastal Erosion and Flooding,High,Yes,No,Yes,N
 Erosion may undermine temporary structures, foundations and access routes, particularly after severe coastal storms.
 Floodwater or saltwater exposure may also affect electrical systems, equipment and stored materials.",,"- Apply permeating grouting 
 - Put silt fence to contain coarse sediments and to allow water to flow through the fence
-- Use erosion control blanket to protect disturbed/open sediment in the waterfront",,,
+- Use erosion control blanket to protect disturbed/open sediment in the waterfront"
 Loven,TAS-CEF-01,Tasmania ,Winter,Coastal Erosion and Flooding,High,Yes,No,Yes,No,Yes,No,No,No,No,Yes,Yes,No,No,No,"The risk of coastal erosion and flooding in Tasmania is high due to strong agreement between observations and projections. Observed shoreline retreat, frequent flooding in low-lying areas, and past storm impacts align with projections of rising sea levels and significant increases in flood frequency and extent. With likely occurrence and moderate consequences, this consistent evidence supports a high risk classification.",,"- Compound flooding/inundation of low lying areas to storm surge and tidal flood
 - Restricted access to roads temporarily depending on the period of the flooding
 - Construction materials, concrete washout, soil, spoil, and waste into coastal waters or adjacent land cause construction pollution
@@ -201,7 +199,7 @@ Loven,TAS-CEF-01,Tasmania ,Winter,Coastal Erosion and Flooding,High,Yes,No,Yes,N
 Erosion may undermine temporary structures, foundations and access routes, particularly after severe coastal storms.
 Floodwater or saltwater exposure may also affect electrical systems, equipment and stored materials.",,"- Apply permeating grouting 
 - Put silt fence to contain coarse sediments and to allow water to flow through the fence
-- Use erosion control blanket to protect disturbed/open sediment in the waterfront",,,
+- Use erosion control blanket to protect disturbed/open sediment in the waterfront"
 Loven,TAS-BF-01,Tasmania ,Spring,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"The risk of fire weather in Tasmania is very high due to strong agreement between observations and projections. Observations show increasing fire weather days, longer fire seasons, and a history of severe events such as Black January, with bushfire identified as the state’s highest risk. Projections consistently indicate increases in fire danger frequency, intensity, and duration across regions. With likely occurrence and major consequences, this robust and consistent evidence supports a very high risk classification.",Bushfire-prone: close to/ among grass or paddocks or grassland,"- Construction site close to or among grass, paddocks, dense/open bush, near coastal scrub, grassland can easily catches fire.
 - Area close to/ among grasses faster burning than through forests as grass is a finer fuel
 - Tall grass (> 10 cm) will have a higher flame height and intensity","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
@@ -210,7 +208,7 @@ Fire conditions may also cause road closures, power interruptions and loss of ac
 - Have an evacuation place that is far from grass
 - Monitor the fire danger rating in Tasmania which includes 4 days forecast (https://www.fire.tas.gov.au/fire-danger-rating/summary/)
 - Monitor the hot, dry, windy days, checking Tasmania emergency website (https://alert.tas.gov.au/?view=both)
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,TAS-BF-02,Tasmania ,Spring,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -219,7 +217,7 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,TAS-BF-03,Tasmania ,Spring,Bushfire,Extreme,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
 Smoke and radiant heat may make outdoor work unsafe even when the fire has not reached the site.
@@ -227,7 +225,7 @@ Fire conditions may also cause road closures, power interruptions and loss of ac
 - Have an evacuation place that is far from grass
 - Monitor the fire danger rating in Tasmania which includes 4 days forecast (https://www.fire.tas.gov.au/fire-danger-rating/summary/)
 - Monitor the hot, dry, windy days, checking Tasmania emergency website (https://alert.tas.gov.au/?view=both)
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,TAS-BF-01,Tasmania ,Summer,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"The risk of fire weather in Tasmania is very high due to strong agreement between observations and projections. Observations show increasing fire weather days, longer fire seasons, and a history of severe events such as Black January, with bushfire identified as the state’s highest risk. Projections consistently indicate increases in fire danger frequency, intensity, and duration across regions. With likely occurrence and major consequences, this robust and consistent evidence supports a very high risk classification.",Bushfire-prone: close to/ among grass or paddocks or grassland,"- Construction site close to or among grass, paddocks, dense/open bush, near coastal scrub, grassland can easily catches fire.
 - Area close to/ among grasses faster burning than through forests as grass is a finer fuel
 - Tall grass (> 10 cm) will have a higher flame height and intensity","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
@@ -236,7 +234,7 @@ Fire conditions may also cause road closures, power interruptions and loss of ac
 - Have an evacuation place that is far from grass
 - Monitor the fire danger rating in Tasmania which includes 4 days forecast (https://www.fire.tas.gov.au/fire-danger-rating/summary/)
 - Monitor the hot, dry, windy days, checking Tasmania emergency website (https://alert.tas.gov.au/?view=both)
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,TAS-BF-02,Tasmania ,Summer,Bushfire,Extreme,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -245,7 +243,7 @@ Smoke and radiant heat may make outdoor work unsafe even when the fire has not r
 Fire conditions may also cause road closures, power interruptions and loss of access to evacuation routes. Hot work, machinery and other ignition-producing activities may need to be restricted during periods of elevated fire danger.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,TAS-BF-03,Tasmania ,Summer,Bushfire,Extreme,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire may directly threaten workers, plant, temporary buildings and other site infrastructure, particularly where construction is located near grassland, forest or other fire-prone areas.
 Smoke and radiant heat may make outdoor work unsafe even when the fire has not reached the site.
@@ -253,7 +251,7 @@ Fire conditions may also cause road closures, power interruptions and loss of ac
 - Have an evacuation place that is far from grass
 - Monitor the fire danger rating in Tasmania which includes 4 days forecast (https://www.fire.tas.gov.au/fire-danger-rating/summary/)
 - Monitor the hot, dry, windy days, checking Tasmania emergency website (https://alert.tas.gov.au/?view=both)
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,TAS-RE-01,Tasmania ,Winter,Rainfall extremes,Medium,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,"The risk of precipitation change in Tasmania is moderate due to low agreement between observations and projections. Observations indicate an overall decline in rainfall, particularly in western regions and during certain seasons, alongside regional variability and fewer extreme rainfall trends in some areas. However, projections are uncertain, with mixed results regarding the direction and seasonal distribution of rainfall change, although increases in extreme rainfall intensity and drought conditions are expected. Given this uncertainty (low agreement, moderate to robust evidence), combined with unlikely likelihood and moderate consequences, the overall risk is classified as moderate.",,"- Area located in flood plain can be exposed to flood
 - Loose equipments and materials float off by the flood
 - Flood water has nowhere to flow and hence the area is flooded
@@ -263,7 +261,7 @@ Water entering trenches, excavations or below-ground work areas may create unsaf
 Flooded or saturated roads may restrict access to the site and may isolate workers, vehicles or construction plant until water levels fall.",,"- Clean up loose materials and debris to avoid picked up by storm or flood, conduct thorough clean up before lock up.
 - Create site drainage, dig emergency swales, ditch, sumps to direct water away and avoid water eroding the foundation
 - Covering, backfilling and protecting trenches and excavations
-- Ensure no vehicles or objects are postioned at edges of trenches",,,
+- Ensure no vehicles or objects are postioned at edges of trenches"
 Loven,TAS-RE-01,Tasmania ,Spring,Rainfall extremes,Medium,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,"The risk of precipitation change in Tasmania is moderate due to low agreement between observations and projections. Observations indicate an overall decline in rainfall, particularly in western regions and during certain seasons, alongside regional variability and fewer extreme rainfall trends in some areas. However, projections are uncertain, with mixed results regarding the direction and seasonal distribution of rainfall change, although increases in extreme rainfall intensity and drought conditions are expected. Given this uncertainty (low agreement, moderate to robust evidence), combined with unlikely likelihood and moderate consequences, the overall risk is classified as moderate.",,"- Area located in flood plain can be exposed to flood
 - Loose equipments and materials float off by the flood
 - Flood water has nowhere to flow and hence the area is flooded
@@ -273,19 +271,19 @@ Water entering trenches, excavations or below-ground work areas may create unsaf
 Flooded or saturated roads may restrict access to the site and may isolate workers, vehicles or construction plant until water levels fall.",,"- Clean up loose materials and debris to avoid picked up by storm or flood, conduct thorough clean up before lock up.
 - Create site drainage, dig emergency swales, ditch, sumps to direct water away and avoid water eroding the foundation
 - Covering, backfilling and protecting trenches and excavations
-- Ensure no vehicles or objects are postioned at edges of trenches",,,
+- Ensure no vehicles or objects are postioned at edges of trenches"
 Loven,TAS-RE-02,Tasmania ,Winter,Rainfall extremes,Medium,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,,Work at height,"- Exposure to lightning strikes, hail, and heavy rainfall which can destruct construction structures and cement work
 - Equipments are exposed to wet surface, scaffolds, ladders, and elevated platforms become slippery which increase the risk of slips and falls
 - Wet surface for vehicles mobilization can be hazardous where movement is frequent","Heavy rainfall may cause flash flooding, localised river flooding or rapid accumulation of water around the construction site.
 Water entering trenches, excavations or below-ground work areas may create unsafe access and increase the likelihood of ground instability.
 Flooded or saturated roads may restrict access to the site and may isolate workers, vehicles or construction plant until water levels fall.",,"- Monitor weather reports regularly and check the average wind speed warnings
-- Halting all extrenal duties",,,
+- Halting all extrenal duties"
 Loven,TAS-RE-02,Tasmania ,Spring,Rainfall extremes,Medium,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,,Work at height,"- Exposure to lightning strikes, hail, and heavy rainfall which can destruct construction structures and cement work
 - Equipments are exposed to wet surface, scaffolds, ladders, and elevated platforms become slippery which increase the risk of slips and falls
 - Wet surface for vehicles mobilization can be hazardous where movement is frequent","Heavy rainfall may cause flash flooding, localised river flooding or rapid accumulation of water around the construction site.
 Water entering trenches, excavations or below-ground work areas may create unsafe access and increase the likelihood of ground instability.
 Flooded or saturated roads may restrict access to the site and may isolate workers, vehicles or construction plant until water levels fall.",,"- Monitor weather reports regularly and check the average wind speed warnings
-- Halting all extrenal duties",,,
+- Halting all extrenal duties"
 Loven,TAS-HW-01,Tasmania ,Spring,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,,Work at height in coastal area,"- High building, crane activities are susceptible to high winds
 - Construction shape, size, and facing direction exposed to the coming wind will more likely swept or impacted
 - Construction fall off, removed structure, wall failure, and removed roofing
@@ -301,7 +299,7 @@ Loven,TAS-HW-01,Tasmania ,Spring,High Wind,Medium,Yes,No,No,Yes,Yes,Yes,Yes,No,Y
 - Secure incomplete structures and provide temporary bracing/support until permanent stability is achieved.
 - Ensure structural components are securely connected and inspect connections before high-wind events.
 - Consider local terrain and wind exposure when planning construction and temporary works.
-- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements.",,,
+- Secure loose materials and temporary building components and strengthen/protect vulnerable roof and facade elements."
 Loven,NT-BF-01,Northern Territory,Spring,Bushfire,High,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"Around 67% of the Northern Territory burned in 2011, showing the system is capable of very widespread fire events (Climate Council, 2023).
 The risk of fire weather in the Northern Territory is high due to generally strong agreement between observations and projections. Observations show increasing fire weather indices and consistently high fire risk under the region’s hot, dry conditions, particularly during the dry season. Projections indicate continued or increasing fire weather severity in some regions and seasons, despite some uncertainty. With moderate likelihood and moderate consequences, and high agreement with medium evidence, this supports a high risk level.",Bushfire-prone: close to/ among grass or paddocks or grassland,"- Construction site close to or among grass, paddocks, dense/open bush, near coastal scrub, grassland can easily catches fire.
 - Area close to/ among grasses faster burning than through forests as grass is a finer fuel
@@ -310,7 +308,7 @@ Smoke, radiant heat and rapidly changing fire behaviour may make continued outdo
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking BOM warning website and NT emergency service
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,NT-BF-02,Northern Territory,Spring,Bushfire,High,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -319,14 +317,14 @@ Smoke, radiant heat and rapidly changing fire behaviour may make continued outdo
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,NT-BF-03,Northern Territory,Spring,Bushfire,High,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire or grassfire may threaten workers, plant, temporary facilities and site access, particularly during the dry season.
 Smoke, radiant heat and rapidly changing fire behaviour may make continued outdoor work unsafe even before the fire reaches the site.
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,NT-BF-01,Northern Territory,Summer,Bushfire,High,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,"Around 67% of the Northern Territory burned in 2011, showing the system is capable of very widespread fire events (Climate Council, 2023).
 The risk of fire weather in the Northern Territory is high due to generally strong agreement between observations and projections. Observations show increasing fire weather indices and consistently high fire risk under the region’s hot, dry conditions, particularly during the dry season. Projections indicate continued or increasing fire weather severity in some regions and seasons, despite some uncertainty. With moderate likelihood and moderate consequences, and high agreement with medium evidence, this supports a high risk level.",Bushfire-prone: close to/ among grass or paddocks or grassland,"- Construction site close to or among grass, paddocks, dense/open bush, near coastal scrub, grassland can easily catches fire.
 - Area close to/ among grasses faster burning than through forests as grass is a finer fuel
@@ -335,7 +333,7 @@ Smoke, radiant heat and rapidly changing fire behaviour may make continued outdo
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking BOM warning website and NT emergency service
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,NT-BF-02,Northern Territory,Summer,Bushfire,High,No,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to dense/open bush,"- Twigs, bark, debris can be embers and can travel through wind, area with many twigs, bark, debris are vulnerable to catch fire
 - Fine fuels can burn very quickly
 - Fire in this type of environment can be very hot and burn very quickly
@@ -344,20 +342,47 @@ Smoke, radiant heat and rapidly changing fire behaviour may make continued outdo
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Prepare the construction site for fire before summer starts
 - Monitor for fire event, decide where to leave or evacuate when hot, dry, windy days happen and fire risks start to increase
 - Clean up twigs, bark, debris near the site
-- Have an adequate area of buffer zone",,,
+- Have an adequate area of buffer zone"
 Loven,NT-BF-03,Northern Territory,Summer,Bushfire,High,Yes,Yes,No,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,,Bushfire-prone: close to coastal scrub,"- Gusty ocean wind can cause fire to spread quickly and behave erratically
 - When fire event happens, coastal roads can be busy and congested","Bushfire or grassfire may threaten workers, plant, temporary facilities and site access, particularly during the dry season.
 Smoke, radiant heat and rapidly changing fire behaviour may make continued outdoor work unsafe even before the fire reaches the site.
 In remote areas, fire-related road closures may isolate workers from emergency services or alternative evacuation routes, increasing the importance of early response and evacuation planning.",,"- Create fuel breaks around the construction compound and assets that need to be protected
 - Have an evacuation place that is far from grass
 - Monitor the hot, dry, windy days, checking VicEmergency app
-- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)",,,
+- Mow grass, remove anything flammable (rubbish, twigs, firewood, weeds)"
 Loven,NT-TC-01,Northern Territory,Summer,Tropical Cyclone,Extreme,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,"Observed: Records of TC landfall over Australia shows decreasing trend of tropical cyclone in Eastern Australia since 1800s and other parts of Australia since 1982. Paleoclimate reconstruction shows TC interactions along Australian coastline have the lowest level in the past 550-1500 years (IPCC AR6 WG1 Chapter 11, 2021). Total frequency of tropical cyclones over Australia has significantly decreased in recent decades (NESP Earth Systems and Climate Change Hub, 2019).
 
 Projection: Total number of TC will decrease but increase in intensity (stronger winds and more extreme rainfall) (NESP Earth Systems and Climate Change Hub, 2019).
 
-Impact: TC will worsen coastal impact as a result of rising sea levels, greater wind and rainfall extreme events related to cyclone (NESP Earth Systems and Climate Change Hub, 2019).
-",,,,,,,,
+Impact: TC will worsen coastal impact as a result of rising sea levels, greater wind and rainfall extreme events related to cyclone (NESP Earth Systems and Climate Change Hub, 2019).","- Construction structures (prone to high wind, storm surge, flooding): work at high, work in coastal area, adjacent to water
+- Construction equipments
+- Construction workers
+- Pile work",Construction structures and activities are very prone to tropical cyclone due to its strong force and extensive impacts.,"- High wind: Damage to scaffolding, cranes, formwork, site offices, materials, and partially enclosed structures, including flying-debris injury risk.
+- Heavy rainfall: Excavation collapse, erosion, sediment runoff, low-lying areas inundation, blocked road access, construction work delays.
+- Storm surge: Inundation of low-lying sites, damage to coastal infrastructure, sea water intrusion.
+- Site isolation and difficult access to logistics: Roads, fuel, water, food, equipment.
+- Electricity downtime or blackout.
+- Failure of environmental control such as sediment control, stockpiles, waste storage, potential sediment discharge to waterways.",,"- Develop business continuity plan (BCP)
+- Monitor cyclone forecast and set early warning system
+- Implement disaster prevention measures
+- Improve working environment
+
+- See mitigation/TARP for high wind
+- See mitigation/TARP for heavy rainfall
+- See mitigation/TARP for coastal erosion/flooding
+
+- Electricity downtime:
+1. Make sure to have backup generators and test it. Make sure the generators are equipped with fuel supplies and emergency lighting.
+2. Position generators and equipment in safe, appropriate ventilated locations, protect generators and switchboards from flooding and debris.
+3. Provide safe shutdown and electrical isolation procedures
+
+- Environmental control failure:
+1. Protect stockpiles with cover or stabilization, keep away from drains and waterway.
+2. Inspect and apply sediment barriers, drain inlet protection and erosion controls before heavy rain forecast
+3. Secure chemical containes and hazardous material from wind, rain, and inundation
+4. Protect fuel and chemical storage against spill and floodwater
+
+- After event: Inspect discharge point to stop water or materials littering the waterway, report any damage, log any damage or pollution to lesson learn document."
 Jianxi,NSW-CEF-01,New South Wales,Autumn,Coastal Erosion and Flooding,Extreme,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: NSW's 2025 coastal assessment distinguishes shoreline erosion, coastal overwash and estuarine inundation. A project can therefore lose supporting land, be overtopped by waves, or flood from elevated estuary levels; these are different failure pathways and may occur together. East coast lows can combine waves, surge, wind and rain.
 
 Projected: Rising mean sea level raises the baseline for storm-tide and estuarine water levels and can extend future hazard exposure. The statewide assessment supports screening, but local sediment behaviour, dune/structure elevations and drainage connections govern actual site impacts.
@@ -385,7 +410,7 @@ NSW application: check the 2025 statewide layers alongside council/coastal-manag
 - Supervisor: monitor warnings, tides and work-front observations; relocate people/plant before access or stability triggers are reached.
 - Environmental lead: separate clean/dirty runoff and secure spoil, fuels and waste outside the hazard area.
 - After the event, exclude affected ground until competent inspection confirms platforms, services and access are safe.
-NSW application: check the 2025 statewide layers alongside council/coastal-management studies; do not treat a regional map as a detailed temporary-works design.",,,
+NSW application: check the 2025 statewide layers alongside council/coastal-management studies; do not treat a regional map as a detailed temporary-works design."
 Jianxi,NSW-CEF-02,New South Wales,Winter,Coastal Erosion and Flooding,Extreme,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: NSW's 2025 coastal assessment distinguishes shoreline erosion, coastal overwash and estuarine inundation. A project can therefore lose supporting land, be overtopped by waves, or flood from elevated estuary levels; these are different failure pathways and may occur together. East coast lows can combine waves, surge, wind and rain.
 
 Projected: Rising mean sea level raises the baseline for storm-tide and estuarine water levels and can extend future hazard exposure. The statewide assessment supports screening, but local sediment behaviour, dune/structure elevations and drainage connections govern actual site impacts.
@@ -413,7 +438,7 @@ NSW application: check the 2025 statewide layers alongside council/coastal-manag
 - Supervisor: monitor warnings, tides and work-front observations; relocate people/plant before access or stability triggers are reached.
 - Environmental lead: separate clean/dirty runoff and secure spoil, fuels and waste outside the hazard area.
 - After the event, exclude affected ground until competent inspection confirms platforms, services and access are safe.
-NSW application: check the 2025 statewide layers alongside council/coastal-management studies; do not treat a regional map as a detailed temporary-works design.",,,
+NSW application: check the 2025 statewide layers alongside council/coastal-management studies; do not treat a regional map as a detailed temporary-works design."
 Jianxi,NSW-RF-01,New South Wales,Autumn,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Riverine flooding develops when runoff from an upstream catchment raises river or creek levels beyond channel capacity. The worksite may flood despite little local rain, and a low crossing may close before the compound is inundated. Upstream rainfall, antecedent soil wetness, catchment size and floodplain storage influence timing and duration.
 
 Projected: A warmer climate can intensify heavy rainfall, but river response also depends on land use, catchment condition and flood infrastructure. A rainfall trend is therefore not a uniform increase in annual flood probability at every NSW project.
@@ -438,7 +463,7 @@ Season: The existing Autumn row is retained as a screening entry, not an exclusi
 - Temporary-works engineer: assess hydraulic loading, debris and scour at crossings, cofferdams and banks.
 - Supervisor: monitor upstream warnings and observed levels; move workers, plant and pollutants early, before the escape route is threatened.
 - Set a clear no-entry/no-crossing rule for floodwater; remote monitoring does not justify sending workers into an inundated area.
-- After recession, obtain appropriate inspections of excavations, ground support, platforms, roads and wet electrical equipment before restart.",,,
+- After recession, obtain appropriate inspections of excavations, ground support, platforms, roads and wet electrical equipment before restart."
 Jianxi,NSW-RF-02,New South Wales,Winter,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Riverine flooding develops when runoff from an upstream catchment raises river or creek levels beyond channel capacity. The worksite may flood despite little local rain, and a low crossing may close before the compound is inundated. Upstream rainfall, antecedent soil wetness, catchment size and floodplain storage influence timing and duration.
 
 Projected: A warmer climate can intensify heavy rainfall, but river response also depends on land use, catchment condition and flood infrastructure. A rainfall trend is therefore not a uniform increase in annual flood probability at every NSW project.
@@ -463,7 +488,7 @@ Season: The existing Winter row is retained. Frontal/east coast low rain and wet
 - Temporary-works engineer: assess hydraulic loading, debris and scour at crossings, cofferdams and banks.
 - Supervisor: monitor upstream warnings and observed levels; move workers, plant and pollutants early, before the escape route is threatened.
 - Set a clear no-entry/no-crossing rule for floodwater; remote monitoring does not justify sending workers into an inundated area.
-- After recession, obtain appropriate inspections of excavations, ground support, platforms, roads and wet electrical equipment before restart.",,,
+- After recession, obtain appropriate inspections of excavations, ground support, platforms, roads and wet electrical equipment before restart."
 Jianxi,NSW-RE-01,New South Wales,Summer,Rainfall Extremes,High,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Intense NSW rainfall can be delivered by thunderstorms, east coast lows and other low-pressure systems. Construction damage depends on rainfall intensity over the duration relevant to drains, excavations and small catchments, as well as prior wetness. Local flash flooding can start without a river breaking its banks.
 
 Projected: National observations and projections support intensifying short-duration heavy rainfall, including where average rainfall decreases. This does not justify a single statewide mm/day trigger or an assumption that each listed season has the same likelihood.
@@ -488,7 +513,7 @@ Season: Summer thunderstorms can generate short, intense bursts and rapid runoff
 - Engineer: size temporary drainage/dewatering for the project and keep approved discharge routes available; test backup power or pumps where failure has serious consequences.
 - Environmental lead: minimise exposed ground, divert clean runoff, stabilise stockpiles and inspect sediment controls before and after rain.
 - Stop entry when water ingress, cracking, slumping or loss of bearing support is observed; do not rely on pumping alone to stabilise an excavation.
-- Reassess excavation support, working platforms and roads before authorised restart.",,,
+- Reassess excavation support, working platforms and roads before authorised restart."
 Jianxi,NSW-RE-02,New South Wales,Autumn,Rainfall Extremes,High,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Intense NSW rainfall can be delivered by thunderstorms, east coast lows and other low-pressure systems. Construction damage depends on rainfall intensity over the duration relevant to drains, excavations and small catchments, as well as prior wetness. Local flash flooding can start without a river breaking its banks.
 
 Projected: National observations and projections support intensifying short-duration heavy rainfall, including where average rainfall decreases. This does not justify a single statewide mm/day trigger or an assumption that each listed season has the same likelihood.
@@ -513,7 +538,7 @@ Season: Autumn low-pressure systems/east coast lows can produce substantial rain
 - Engineer: size temporary drainage/dewatering for the project and keep approved discharge routes available; test backup power or pumps where failure has serious consequences.
 - Environmental lead: minimise exposed ground, divert clean runoff, stabilise stockpiles and inspect sediment controls before and after rain.
 - Stop entry when water ingress, cracking, slumping or loss of bearing support is observed; do not rely on pumping alone to stabilise an excavation.
-- Reassess excavation support, working platforms and roads before authorised restart.",,,
+- Reassess excavation support, working platforms and roads before authorised restart."
 Jianxi,NSW-RE-03,New South Wales,Spring,Rainfall Extremes,High,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Intense NSW rainfall can be delivered by thunderstorms, east coast lows and other low-pressure systems. Construction damage depends on rainfall intensity over the duration relevant to drains, excavations and small catchments, as well as prior wetness. Local flash flooding can start without a river breaking its banks.
 
 Projected: National observations and projections support intensifying short-duration heavy rainfall, including where average rainfall decreases. This does not justify a single statewide mm/day trigger or an assumption that each listed season has the same likelihood.
@@ -538,7 +563,7 @@ Season: Spring thunderstorm activity and variable antecedent ground conditions c
 - Engineer: size temporary drainage/dewatering for the project and keep approved discharge routes available; test backup power or pumps where failure has serious consequences.
 - Environmental lead: minimise exposed ground, divert clean runoff, stabilise stockpiles and inspect sediment controls before and after rain.
 - Stop entry when water ingress, cracking, slumping or loss of bearing support is observed; do not rely on pumping alone to stabilise an excavation.
-- Reassess excavation support, working platforms and roads before authorised restart.",,,
+- Reassess excavation support, working platforms and roads before authorised restart."
 Jianxi,NSW-BF-01,New South Wales,Spring,Bushfire,Extreme,Possible,Yes,No,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Yes,Possible,"Observed / physical process: NSW bushfire behaviour depends on the combination of fuel availability, fuel dryness, ignition and fire weather. Construction adds ignition opportunities through hot work, plant and temporary electrical systems, while waste, packaging and site cabins can form combustible targets at a vegetation interface. Smoke and road closures can affect a project before direct flame contact.
 
 Projected: Regional climate projections indicate increasing severe fire-weather days and hotter conditions, with variations across NSW. More dangerous fire weather does not mean a bushfire will ignite at every project; fuel continuity, terrain, recent rain and ignition sources remain important.
@@ -564,7 +589,7 @@ NSW application: general-purpose open-air hot work is prohibited during a Total 
 - Permit issuer: eliminate unnecessary ignition work; verify applicable bans/exemptions and task controls rather than relying on the site permit alone.
 - Monitor smoke/wind changes and relocate early before escape routes are threatened; workers are not to remain to defend an unprepared construction site.
 - Restart only after emergency advice and inspection of access, plant and services.
-NSW application: general-purpose open-air hot work is prohibited during a Total Fire Ban unless an applicable official exemption covers the activity and its conditions are met. ",,,
+NSW application: general-purpose open-air hot work is prohibited during a Total Fire Ban unless an applicable official exemption covers the activity and its conditions are met. "
 Jianxi,NSW-BF-02,New South Wales,Summer,Bushfire,Extreme,Possible,Yes,No,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Yes,Possible,"Observed / physical process: NSW bushfire behaviour depends on the combination of fuel availability, fuel dryness, ignition and fire weather. Construction adds ignition opportunities through hot work, plant and temporary electrical systems, while waste, packaging and site cabins can form combustible targets at a vegetation interface. Smoke and road closures can affect a project before direct flame contact.
 
 Projected: Regional climate projections indicate increasing severe fire-weather days and hotter conditions, with variations across NSW. More dangerous fire weather does not mean a bushfire will ignite at every project; fuel continuity, terrain, recent rain and ignition sources remain important.
@@ -590,7 +615,7 @@ NSW application: general-purpose open-air hot work is prohibited during a Total 
 - Permit issuer: eliminate unnecessary ignition work; verify applicable bans/exemptions and task controls rather than relying on the site permit alone.
 - Monitor smoke/wind changes and relocate early before escape routes are threatened; workers are not to remain to defend an unprepared construction site.
 - Restart only after emergency advice and inspection of access, plant and services.
-NSW application: general-purpose open-air hot work is prohibited during a Total Fire Ban unless an applicable official exemption covers the activity and its conditions are met. ",,,
+NSW application: general-purpose open-air hot work is prohibited during a Total Fire Ban unless an applicable official exemption covers the activity and its conditions are met. "
 Jianxi,NSW-HW-01,New South Wales,Autumn,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"East coast lows become more prevalent towards late autumn; strong coastal winds and rapidly developing low-pressure systems can affect exposed work. This is a seasonal mechanism, not an assigned annual event probability.
 
 Climate context: future changes are storm-type dependent. Research projects fewer southern extratropical lows, while changes in damaging local gusts and storms remain uncertain; do not assume every high-wind mechanism increases.
@@ -611,7 +636,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold.",,,
+Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold."
 Jianxi,NSW-HW-02,New South Wales,Winter,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"East coast lows and cold fronts can produce gales, including exposed coastal, range and alpine locations. Apply the separate BoM warning criterion for NSW Alps above 1900 m; plant limits may be lower.
 
 Climate context: future changes are storm-type dependent. Research projects fewer southern extratropical lows, while changes in damaging local gusts and storms remain uncertain; do not assume every high-wind mechanism increases.
@@ -632,7 +657,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold.",,,
+Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold."
 Jianxi,NSW-HW-03,New South Wales,Spring,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"Warm-season thunderstorm outflows and strong frontal winds can affect lifting, height work and temporary structures. Exposure varies by site and forecast; autumn/winter east coast low peaks do not exclude spring events.
 
 Climate context: future changes are storm-type dependent. Research projects fewer southern extratropical lows, while changes in damaging local gusts and storms remain uncertain; do not assume every high-wind mechanism increases.
@@ -653,7 +678,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold.",,,
+Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold."
 Jianxi,NSW-HW-04,New South Wales,Summer,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"Thunderstorm gusts and warm-season coastal southerly busters can create abrupt wind changes. Southerly busters chiefly affect the coast east of the Great Dividing Range; thunderstorm risk is not limited to the coast.
 
 Climate context: future changes are storm-type dependent. Research projects fewer southern extratropical lows, while changes in damaging local gusts and storms remain uncertain; do not assume every high-wind mechanism increases.
@@ -674,7 +699,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold.",,,
+Check BoM NSW warnings and the site's actual altitude/exposure; use task-specific wind limits rather than the public-warning threshold."
 Jianxi,WA-CEF-01,Western Australia,Summer,Coastal Erosion and Flooding,High,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: WA coastal exposure differs sharply between cyclone-affected north-west coasts and south-west/southern coasts influenced by cool-season storms. Both can experience elevated water levels, wave attack and erosion, but storm timing, exposure and local landforms differ. Cyclone impacts may also reach inland access and support infrastructure.
 
 Projected: Sea-level rise increases the baseline for coastal inundation and can aggravate erosion, while shoreline response depends on sediment supply, coastal geology, waves and existing works. A single statewide setback or flood level cannot represent this diversity. WA's coastal planning/CHRMAP framework requires location-specific hazard assessment and consideration of avoid, retreat, accommodate or protect responses.
@@ -702,7 +727,7 @@ WA application: review the relevant local CHRMAP and cyclone exposure; where ear
 - Supervisor: monitor warnings, tides and work-front observations; relocate people/plant before access or stability triggers are reached.
 - Environmental lead: separate clean/dirty runoff and secure spoil, fuels and waste outside the hazard area.
 - After the event, exclude affected ground until competent inspection confirms platforms, services and access are safe.
-WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound.",,,
+WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound."
 Jianxi,WA-CEF-02,Western Australia,Autumn,Coastal Erosion and Flooding,High,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: WA coastal exposure differs sharply between cyclone-affected north-west coasts and south-west/southern coasts influenced by cool-season storms. Both can experience elevated water levels, wave attack and erosion, but storm timing, exposure and local landforms differ. Cyclone impacts may also reach inland access and support infrastructure.
 
 Projected: Sea-level rise increases the baseline for coastal inundation and can aggravate erosion, while shoreline response depends on sediment supply, coastal geology, waves and existing works. A single statewide setback or flood level cannot represent this diversity. WA's coastal planning/CHRMAP framework requires location-specific hazard assessment and consideration of avoid, retreat, accommodate or protect responses.
@@ -730,7 +755,7 @@ WA application: review the relevant local CHRMAP and cyclone exposure; where ear
 - Supervisor: monitor warnings, tides and work-front observations; relocate people/plant before access or stability triggers are reached.
 - Environmental lead: separate clean/dirty runoff and secure spoil, fuels and waste outside the hazard area.
 - After the event, exclude affected ground until competent inspection confirms platforms, services and access are safe.
-WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound.",,,
+WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound."
 Jianxi,WA-CEF-03,Western Australia,Winter,Coastal Erosion and Flooding,High,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: WA coastal exposure differs sharply between cyclone-affected north-west coasts and south-west/southern coasts influenced by cool-season storms. Both can experience elevated water levels, wave attack and erosion, but storm timing, exposure and local landforms differ. Cyclone impacts may also reach inland access and support infrastructure.
 
 Projected: Sea-level rise increases the baseline for coastal inundation and can aggravate erosion, while shoreline response depends on sediment supply, coastal geology, waves and existing works. A single statewide setback or flood level cannot represent this diversity. WA's coastal planning/CHRMAP framework requires location-specific hazard assessment and consideration of avoid, retreat, accommodate or protect responses.
@@ -758,7 +783,7 @@ WA application: review the relevant local CHRMAP and cyclone exposure; where ear
 - Supervisor: monitor warnings, tides and work-front observations; relocate people/plant before access or stability triggers are reached.
 - Environmental lead: separate clean/dirty runoff and secure spoil, fuels and waste outside the hazard area.
 - After the event, exclude affected ground until competent inspection confirms platforms, services and access are safe.
-WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound.",,,
+WA application: review the relevant local CHRMAP and cyclone exposure; where early relocation is required, set the trigger from travel/shutdown time, not from water reaching the compound."
 Jianxi,WA-RE-01,Western Australia,Summer,Rainfall Extremes,High,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Heat exposure in WA varies between humid tropical/coastal environments and hot inland or southern conditions. The worker's heat load depends on exertion, radiant heat, humidity, air movement and clothing as well as air temperature. Crane cabs, steelwork, confined areas and hot processes can create a much higher exposure than a nearby weather station suggests.
 
 Projected: WA is projected to become hotter, with more very hot days and heat extremes. A heatwave includes unusually hot maximum and minimum temperatures over several days relative to local conditions, so poor overnight recovery and consecutive shifts matter. A forecast warning is an early planning input, not a universal safe-work temperature.
@@ -783,7 +808,7 @@ Season: Spring warming and early hot spells can expose crews who are not acclima
 - Environmental lead: minimise exposed ground, divert clean runoff, stabilise stockpiles and inspect sediment controls before and after rain.
 - Stop entry when water ingress, cracking, slumping or loss of bearing support is observed; do not rely on pumping alone to stabilise an excavation.
 - Reassess excavation support, working platforms and roads before authorised restart.
-WA application: assess remote access crossings and communications before forecast rain, and allow for supplies and transport if a washout isolates the worksite.",,,
+WA application: assess remote access crossings and communications before forecast rain, and allow for supplies and transport if a washout isolates the worksite."
 Jianxi,WA-RE-02,Western Australia,Winter,Rainfall Extremes,High,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed / physical process: Heat exposure in WA varies between humid tropical/coastal environments and hot inland or southern conditions. The worker's heat load depends on exertion, radiant heat, humidity, air movement and clothing as well as air temperature. Crane cabs, steelwork, confined areas and hot processes can create a much higher exposure than a nearby weather station suggests.
 
 Projected: WA is projected to become hotter, with more very hot days and heat extremes. A heatwave includes unusually hot maximum and minimum temperatures over several days relative to local conditions, so poor overnight recovery and consecutive shifts matter. A forecast warning is an early planning input, not a universal safe-work temperature.
@@ -808,7 +833,7 @@ Season: Summer conditions can produce sustained daytime heat and warm nights, wi
 - Environmental lead: minimise exposed ground, divert clean runoff, stabilise stockpiles and inspect sediment controls before and after rain.
 - Stop entry when water ingress, cracking, slumping or loss of bearing support is observed; do not rely on pumping alone to stabilise an excavation.
 - Reassess excavation support, working platforms and roads before authorised restart.
-WA application: assess remote access crossings and communications before forecast rain, and allow for supplies and transport if a washout isolates the worksite.",,,
+WA application: assess remote access crossings and communications before forecast rain, and allow for supplies and transport if a washout isolates the worksite."
 Jianxi,WA-TE-01,Western Australia,Spring,Temperature Extremes,Extreme,Possible,Yes,No,Yes,Possible,Possible,Yes,No,Possible,Possible,No,Possible,Yes,Possible,"Observed / physical process: Heat exposure in WA varies between humid tropical/coastal environments and hot inland or southern conditions. The worker's heat load depends on exertion, radiant heat, humidity, air movement and clothing as well as air temperature. Crane cabs, steelwork, confined areas and hot processes can create a much higher exposure than a nearby weather station suggests.
 
 Projected: WA is projected to become hotter, with more very hot days and heat extremes. A heatwave includes unusually hot maximum and minimum temperatures over several days relative to local conditions, so poor overnight recovery and consecutive shifts matter. A forecast warning is an early planning input, not a universal safe-work temperature.
@@ -832,7 +857,7 @@ Season: Spring warming and early hot spells can expose crews who are not acclima
 - Planner: shift strenuous work to cooler periods, use mechanical aids and provide planned recovery in effective shade or cooled areas.
 - Provide accessible drinking water, buddy checks and a trained response; stop affected work if symptoms or failed controls develop.
 - Plant lead: check cooling/ventilation, alarms and manufacturer limits; shut down safely rather than bypassing thermal protections.
-- Review controls throughout the shift and authorise restart only when the worker, equipment and work environment are safe.",,,
+- Review controls throughout the shift and authorise restart only when the worker, equipment and work environment are safe."
 Jianxi,WA-TE-02,Western Australia,Summer,Temperature Extremes,Extreme,Possible,Yes,No,Yes,Possible,Possible,Yes,No,Possible,Possible,No,Possible,Yes,Possible,"Observed / physical process: Heat exposure in WA varies between humid tropical/coastal environments and hot inland or southern conditions. The worker's heat load depends on exertion, radiant heat, humidity, air movement and clothing as well as air temperature. Crane cabs, steelwork, confined areas and hot processes can create a much higher exposure than a nearby weather station suggests.
 
 Projected: WA is projected to become hotter, with more very hot days and heat extremes. A heatwave includes unusually hot maximum and minimum temperatures over several days relative to local conditions, so poor overnight recovery and consecutive shifts matter. A forecast warning is an early planning input, not a universal safe-work temperature.
@@ -856,7 +881,7 @@ Season: Summer conditions can produce sustained daytime heat and warm nights, wi
 - Planner: shift strenuous work to cooler periods, use mechanical aids and provide planned recovery in effective shade or cooled areas.
 - Provide accessible drinking water, buddy checks and a trained response; stop affected work if symptoms or failed controls develop.
 - Plant lead: check cooling/ventilation, alarms and manufacturer limits; shut down safely rather than bypassing thermal protections.
-- Review controls throughout the shift and authorise restart only when the worker, equipment and work environment are safe.",,,
+- Review controls throughout the shift and authorise restart only when the worker, equipment and work environment are safe."
 Jianxi,WA-BF-01,Western Australia,Summer,Bushfire,Extreme,Possible,Yes,No,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Yes,Possible,"Observed / physical process: WA bushfire exposure depends on region, fuel type and fuel condition. Southern/south-western summer drying and hot, windy conditions differ from the dry-season grassfire regime of the tropical north. Construction can introduce sparks and hot surfaces into cured vegetation, while smoke, road closures and remote access constrain evacuation.
 
 Projected: WA projections indicate hotter conditions and more dangerous fire weather, but the size and timing of the change vary geographically. Wetter growth periods can also build fine fuel that later dries. Climate evidence supports preparation and screening; it does not establish that every WA project has the same fire likelihood or consequence.
@@ -882,7 +907,7 @@ WA application: check Emergency WA and the local government's movement bans. Ver
 - Permit issuer: eliminate unnecessary ignition work; verify applicable bans/exemptions and task controls rather than relying on the site permit alone.
 - Monitor smoke/wind changes and relocate early before escape routes are threatened; workers are not to remain to defend an unprepared construction site.
 - Restart only after emergency advice and inspection of access, plant and services.
-WA application: check Emergency WA and the local government's movement bans. Verify the specific business conditions or exemption before considering any restricted ignition activity. [JR14]",,,
+WA application: check Emergency WA and the local government's movement bans. Verify the specific business conditions or exemption before considering any restricted ignition activity. [JR14]"
 Jianxi,WA-BF-02,Western Australia,Autumn,Bushfire,Extreme,Possible,Yes,No,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Possible,Yes,Possible,"Observed / physical process: WA bushfire exposure depends on region, fuel type and fuel condition. Southern/south-western summer drying and hot, windy conditions differ from the dry-season grassfire regime of the tropical north. Construction can introduce sparks and hot surfaces into cured vegetation, while smoke, road closures and remote access constrain evacuation.
 
 Projected: WA projections indicate hotter conditions and more dangerous fire weather, but the size and timing of the change vary geographically. Wetter growth periods can also build fine fuel that later dries. Climate evidence supports preparation and screening; it does not establish that every WA project has the same fire likelihood or consequence.
@@ -908,7 +933,7 @@ WA application: check Emergency WA and the local government's movement bans. Ver
 - Permit issuer: eliminate unnecessary ignition work; verify applicable bans/exemptions and task controls rather than relying on the site permit alone.
 - Monitor smoke/wind changes and relocate early before escape routes are threatened; workers are not to remain to defend an unprepared construction site.
 - Restart only after emergency advice and inspection of access, plant and services.
-WA application: check Emergency WA and the local government's movement bans. Verify the specific business conditions or exemption before considering any restricted ignition activity. [JR14]",,,
+WA application: check Emergency WA and the local government's movement bans. Verify the specific business conditions or exemption before considering any restricted ignition activity. [JR14]"
 Jianxi,WA-HW-01,Western Australia,Autumn,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"March-April remains within the north-west cyclone season. The south-west cool-season frontal regime starts around April and extends to October. These are separate regional exposures, not a uniform statewide probability. [HW05, HW06]
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain. [HW18, HW20]
@@ -929,7 +954,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-02,Western Australia,Winter,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"Cold fronts and severe storms are the principal cool-season wind concern in south-west WA. Northern sites can experience dry-season south-easterly surges; winter is outside the usual cyclone peak.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -950,7 +975,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-03,Western Australia,Spring,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"South-west frontal systems can still affect September-October; warm-season storms and the November start of north-west cyclone season add different exposures. Apply the mechanism relevant to the actual project region.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -971,7 +996,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-04,Western Australia,Summer,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"North-west WA is in its November-April cyclone season; tropical cyclones can bring destructive winds and affect inland sites. Warm-season thunderstorms can also generate local gusts; this is not a claim of equal cyclone exposure across WA.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -992,7 +1017,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-01,Western Australia,Autumn,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"March-April remains within the north-west cyclone season. The south-west cool-season frontal regime starts around April and extends to October. These are separate regional exposures, not a uniform statewide probability. [HW05, HW06]
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain. [HW18, HW20]
@@ -1013,7 +1038,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-02,Western Australia,Winter,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"Cold fronts and severe storms are the principal cool-season wind concern in south-west WA. Northern sites can experience dry-season south-easterly surges; winter is outside the usual cyclone peak.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -1034,7 +1059,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-03,Western Australia,Spring,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"South-west frontal systems can still affect September-October; warm-season storms and the November start of north-west cyclone season add different exposures. Apply the mechanism relevant to the actual project region.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -1055,7 +1080,7 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
 Jianxi,WA-HW-04,Western Australia,Summer,High Wind,High,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,"North-west WA is in its November-April cyclone season; tropical cyclones can bring destructive winds and affect inland sites. Warm-season thunderstorms can also generate local gusts; this is not a claim of equal cyclone exposure across WA.
 
 Climate context: fewer tropical cyclones are projected nationally, but the proportion of very intense events may rise; local track/intensity and regional low-pressure projections remain uncertain.
@@ -1076,7 +1101,27 @@ Project consequences and likelihood require the project matrix.","- Use manufact
 - Verify temporary works/bracing and secure loose material; use engineered containment for stockpiles and scaffold mesh.
 - Restrict access and suspend affected work before agreed limits or unsafe conditions occur.
 - Inspect and authorise restart after the event.
-Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions.",,,
+Check Emergency WA and BoM; engineer camp/building anchorage and scaffold ties; allow enough time for remote demobilisation before dangerous conditions."
+Jianxi,WA-CY-01,Western Australia,Autumn,Tropical Cyclone,High,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,"Cyclone can bring damaging wind, heavy rain, flash/river flooding and storm surge. Exposure is greatest in northwest WA; impacts and remnants can extend inland or south.
+
+Autumn: mainly March–April, including the March peak and late-season April events. May is outside the usual planning period, although exceptional events can occur.
+
+This register includes common seasons only: Summer and Autumn. November remains part of the official season but is less common, so there is no routine Spring entry.
+
+Initial inherent screening rating: High (Possible × Major), assuming an exposed northwest WA construction site before cyclone-specific controls. Rating basis: Notes!F128:I136.","Workers, remote camps and transportable buildings; cranes/piling rigs, scaffolds and unfinished works; coastal/river works, excavations, stockpiles, access roads, electricity and communications.","Season: Autumn, mainly March–April. Apply to cyclone-exposed northwest/forecast-affected WA sites.
+Initial inherent screening assumes an exposed northwest WA site before cyclone-specific controls: Possible × Major = High.
+Unverified camp anchorage, weak roof/opening connections, loose sheeting and incomplete bracing increase wind vulnerability. Saturated platforms, flood/surge exposure and single access routes can prevent safe shutdown or evacuation.","Cyclone winds cause debris impact, loss of load control or collapse of temporary works/camp buildings. Heavy rain and surge flood excavations or access roads, isolate crews and disrupt power/communications.
+Common season: Autumn, mainly March–April.","Verify engineered camp/temporary-building anchorage, roof/opening connections and approved shelter outside flood/surge exposure. Set plant-specific stop/configuration limits and evacuation lead times. Secure materials and isolate services while safe; relocate before gales/route closure. Inspect structures, ground and services before restart. WorkSafe provides workplace guidance; JCU Seroja building evidence informs the analyst risk mapping.","Verify engineered camp/temporary-building anchorage, roof/opening connections and approved shelter outside flood/surge exposure. Set plant-specific stop/configuration limits and evacuation lead times. Secure materials and isolate services while safe; relocate before gales/route closure. Inspect structures, ground and services before restart. WorkSafe provides workplace guidance; JCU Seroja building evidence informs the analyst risk mapping."
+Jianxi,WA-CY-03,Western Australia,Summer,Tropical Cyclone,High,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,"Cyclone can bring damaging wind, heavy rain, flash/river flooding and storm surge. Exposure is greatest in northwest WA; impacts and remnants can extend inland or south.
+
+Summer: December–February, with January–February in the main activity period. Pilbara local histories identify a mid-December–April season and February–March peak.
+
+This register includes common seasons only: Summer and Autumn. November remains part of the official season but is less common, so there is no routine Spring entry.
+
+Initial inherent screening rating: High (Possible × Major), assuming an exposed northwest WA construction site before cyclone-specific controls. Rating basis: Notes!F128:I136.","Workers, remote camps and transportable buildings; cranes/piling rigs, scaffolds and unfinished works; coastal/river works, excavations, stockpiles, access roads, electricity and communications.","Season: Summer, December–February. Apply to cyclone-exposed northwest/forecast-affected WA sites.
+Initial inherent screening assumes an exposed northwest WA site before cyclone-specific controls: Possible × Major = High.
+Unverified camp anchorage, weak roof/opening connections, loose sheeting and incomplete bracing increase wind vulnerability. Saturated platforms, flood/surge exposure and single access routes can prevent safe shutdown or evacuation.","Cyclone winds cause debris impact, loss of load control or collapse of temporary works/camp buildings. Heavy rain and surge flood excavations or access roads, isolate crews and disrupt power/communications.
+Common season: Summer, December–February.","Verify engineered camp/temporary-building anchorage, roof/opening connections and approved shelter outside flood/surge exposure. Set plant-specific stop/configuration limits and evacuation lead times. Secure materials and isolate services while safe; relocate before gales/route closure. Inspect structures, ground and services before restart. WorkSafe provides workplace guidance; JCU Seroja building evidence informs the analyst risk mapping.","Verify engineered camp/temporary-building anchorage, roof/opening connections and approved shelter outside flood/surge exposure. Set plant-specific stop/configuration limits and evacuation lead times. Secure materials and isolate services while safe; relocate before gales/route closure. Inspect structures, ground and services before restart. WorkSafe provides workplace guidance; JCU Seroja building evidence informs the analyst risk mapping."
 Amrutha ,NT-RF-01,Northern Territory,Summer,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed: Riverine flooding occurs every wet season. 
 Projected: Extreme rainfall in the Monsoonal North is projected to become more intense, with high confidence, although the size of the increase can’t yet be projected with confidence. Fewer but more intense tropical cyclones are projected, with medium confidence (Climate Change in Australia, Monsoonal North).
 Likelihood: Almost certain. Flooding occurs every wet season, and heavier rainfall events are projected.
@@ -1093,7 +1138,7 @@ The impact is driven by monsoon rain, tropical lows and cyclones during the wet 
 - Locate compounds, plant and stockpiles above flood level, and secure the site before the wet (NT WorkSafe, 2025)
 - Monitor BoM flood warnings and set evacuation triggers using the nearest gauge levels (BoM NT; NT PFES)
 - Stock food, water, fuel and first aid for sites that may be isolated (NT PFES)
-- Inspect ground stability and excavations before restarting after a flood (WorkSafe Victoria, Floods and other natural disasters)",,,
+- Inspect ground stability and excavations before restarting after a flood (WorkSafe Victoria, Floods and other natural disasters)"
 Amrutha ,NT-RF-02,Northern Territory,Autumn,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"Observed: Riverine flooding occurs every wet season. 
 Projected: Extreme rainfall in the Monsoonal North is projected to become more intense, with high confidence, although the size of the increase can’t yet be projected with confidence. Fewer but more intense tropical cyclones are projected, with medium confidence (Climate Change in Australia, Monsoonal North).
 Likelihood: Almost certain. Flooding occurs every wet season, and heavier rainfall events are projected.
@@ -1110,8 +1155,8 @@ The impact is driven by monsoon rain, tropical lows and cyclones during the wet 
 - Locate compounds, plant and stockpiles above flood level, and secure the site before the wet (NT WorkSafe, 2025)
 - Monitor BoM flood warnings and set evacuation triggers using the nearest gauge levels (BoM NT; NT PFES)
 - Stock food, water, fuel and first aid for sites that may be isolated (NT PFES)
-- Inspect ground stability and excavations before restarting after a flood (WorkSafe Victoria, Floods and other natural disasters)",,,
-Amrutha,NT-CE-01,Northern Territory,Summer,Coastal Erosion,Extreme,Yes,No,Possible,No,Yes,Possible,No,Possible,Possible,Yes,Possible,Possible,No,Yes,"- Observed: Flooding occurs every wet season, with increasing extreme events in 1998, 2006, 2023 and 2026, including unprecedented flooding at Darwin River Dam. Darwin experiences 3–6 flood days a year.
+- Inspect ground stability and excavations before restarting after a flood (WorkSafe Victoria, Floods and other natural disasters)"
+Amrutha,NT-CE-01,Northern Territory,Summer,Coastal Erosion and Flooding,Extreme,Yes,No,Possible,No,Yes,Possible,No,Possible,Possible,Yes,Possible,Possible,No,Yes,"- Observed: Flooding occurs every wet season, with increasing extreme events in 1998, 2006, 2023 and 2026, including unprecedented flooding at Darwin River Dam. Darwin experiences 3–6 flood days a year.
 - Projected: Extreme rainfall events in northern Australia are expected to intensify by mid-century. The IPCC AR6 projects increases in heavy rainfall and river flooding in northern Australia by mid-century, with medium confidence (ClimaMeter, 2025). Extreme daily rainfall intensity is expected to increase by 4–20% by 2050.
 Likelihood: Almost certain
 
@@ -1129,8 +1174,8 @@ The impact is driven by monsoon rainfall, tropical lows and cyclones during the 
 - Design foundations for scour and stabilise sand with permeation groutingSchedule foreshore works in the dry season (May–Oct)
 - Install rock armour or geotextile sandbags at work fronts
 - Use silt fences and erosion control blankets near the shore
-- Design foundations for scour and stabilise sand with permeation grouting",,,
-Amrutha,NT-CE-02,Northern Territory,Autumn,Coastal Erosion,Extreme,Yes,No,Possible,No,Yes,Possible,No,Possible,Possible,Yes,Possible,Possible,No,Yes,"- Observed: Flooding occurs every wet season, with increasing extreme events in 1998, 2006, 2023 and 2026, including unprecedented flooding at Darwin River Dam. Darwin experiences 3–6 flood days a year.
+- Design foundations for scour and stabilise sand with permeation grouting"
+Amrutha,NT-CE-02,Northern Territory,Autumn,Coastal Erosion and Flooding,Extreme,Yes,No,Possible,No,Yes,Possible,No,Possible,Possible,Yes,Possible,Possible,No,Yes,"- Observed: Flooding occurs every wet season, with increasing extreme events in 1998, 2006, 2023 and 2026, including unprecedented flooding at Darwin River Dam. Darwin experiences 3–6 flood days a year.
 - Projected: Extreme rainfall events in northern Australia are expected to intensify by mid-century. The IPCC AR6 projects increases in heavy rainfall and river flooding in northern Australia by mid-century, with medium confidence (ClimaMeter, 2025). Extreme daily rainfall intensity is expected to increase by 4–20% by 2050.
 Likelihood: Almost certain
 
@@ -1148,7 +1193,7 @@ The impact is driven by monsoon rainfall, tropical lows and cyclones during the 
 - Design foundations for scour and stabilise sand with permeation groutingSchedule foreshore works in the dry season (May–Oct)
 - Install rock armour or geotextile sandbags at work fronts
 - Use silt fences and erosion control blankets near the shore
-- Design foundations for scour and stabilise sand with permeation grouting",,,
+- Design foundations for scour and stabilise sand with permeation grouting"
 Amrutha,QLD-RE-01,Queensland,Summer,Rainfall Extremes,Extreme,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Rainfall extremes are increasing in intensity, with major events in 2011, 2022 and 2025. Although overall rainfall has fallen, heavy to extreme rain events have increased since 1951, and the most damaging severe storms have become more frequent (Qld State of the Environment, 2024).
 - Projected: Extreme rainfall intensity is projected to increase by 4–20% by 2050 (Climate Change in Australia). In Brisbane, hourly rainfall is estimated to increase by 6–9% per degree of warming for frequent events and up to 18% per degree for rare (1-in-100 AEP) events (Saboia & Helfer, 2024).
 - Likelihood: More intense rainfall extremes are almost certain, with high confidence given strong agreement between observed trends and projections.
@@ -1164,7 +1209,7 @@ The impact is driven by the wet season, tropical lows and cyclones during summer
 - Access roads cut, isolating remote sites","Intense rainfall may flood excavations and low-lying work areas, causing trench collapse, plant damage and work stoppages. Saturated ground may destabilise cranes, piling rigs and scaffolding. Sediment and waste from stockpiles may wash off site into drains and waterways, breaching environmental obligations. Road closures may isolate workers and delay deliveries.",,"- Monitor BoM warnings and set stop-work triggers
 - Install temporary drainage and sediment controls
 - Cover excavations and stockpiles before heavy rain
-- Check ground bearing capacity for cranes, scaffolds and piling rigs after rain",,,
+- Check ground bearing capacity for cranes, scaffolds and piling rigs after rain"
 Amrutha,QLD-RE-02,Queensland,Autumn,Rainfall Extremes,Extreme,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Rainfall extremes are increasing in intensity, with major events in 2011, 2022 and 2025. Although overall rainfall has fallen, heavy to extreme rain events have increased since 1951, and the most damaging severe storms have become more frequent (Qld State of the Environment, 2024).
 - Projected: Extreme rainfall intensity is projected to increase by 4–20% by 2050 (Climate Change in Australia). In Brisbane, hourly rainfall is estimated to increase by 6–9% per degree of warming for frequent events and up to 18% per degree for rare (1-in-100 AEP) events (Saboia & Helfer, 2024).
 - Likelihood: More intense rainfall extremes are almost certain, with high confidence given strong agreement between observed trends and projections.
@@ -1180,7 +1225,7 @@ The impact is driven by the wet season, tropical lows and cyclones during summer
 - Access roads cut, isolating remote sites","Intense rainfall may flood excavations and low-lying work areas, causing trench collapse, plant damage and work stoppages. Saturated ground may destabilise cranes, piling rigs and scaffolding. Sediment and waste from stockpiles may wash off site into drains and waterways, breaching environmental obligations. Road closures may isolate workers and delay deliveries.",,"- Monitor BoM warnings and set stop-work triggers
 - Install temporary drainage and sediment controls
 - Cover excavations and stockpiles before heavy rain
-- Check ground bearing capacity for cranes, scaffolds and piling rigs after rain",,,
+- Check ground bearing capacity for cranes, scaffolds and piling rigs after rain"
 Amrutha,QLD-RF-01,Queensland,Summer,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Riverine flooding is increasing in frequency and severity. The 2022 floods cost Queensland an estimated $7.7 billion, and flooding causes more damage there than any other natural disaster (Queensland Audit Office).
 - Projected: River floods are expected to become more frequent and intense by mid-century. The largest increases in 1%-chance flood events are projected for south Queensland and NSW (Australian Climate Service).
 - Likelihood: Continued and more severe riverine flooding is almost certain, with high confidence. The 2023 State Disaster Risk Report ranks flood risk as Queensland's highest priority.
@@ -1197,7 +1242,7 @@ The impact is linked to wet season rainfall and atmospheric rivers during summer
 ","Riverine flooding may inundate site compounds and plant, damage temporary works in watercourses and wash materials, fuel and waste downstream. Work may stop for extended periods while access is cut. After floodwater recedes, saturated and eroded ground may cause plant to bog or roll over and excavations to collapse.",,"- Locate compounds, plant and stockpiles above flood level
 - Prepare a flood emergency and evacuation plan
 - Move plant and materials to high ground on flood warnings
-- Schedule in-stream works for the dry season",,,
+- Schedule in-stream works for the dry season"
 Amrutha,QLD-RF-02,Queensland,Autumn,Riverine Flooding,Extreme,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Riverine flooding is increasing in frequency and severity. The 2022 floods cost Queensland an estimated $7.7 billion, and flooding causes more damage there than any other natural disaster (Queensland Audit Office).
 - Projected: River floods are expected to become more frequent and intense by mid-century. The largest increases in 1%-chance flood events are projected for south Queensland and NSW (Australian Climate Service).
 - Likelihood: Continued and more severe riverine flooding is almost certain, with high confidence. The 2023 State Disaster Risk Report ranks flood risk as Queensland's highest priority.
@@ -1214,7 +1259,7 @@ The impact is linked to wet season rainfall and atmospheric rivers during summer
 ","Riverine flooding may inundate site compounds and plant, damage temporary works in watercourses and wash materials, fuel and waste downstream. Work may stop for extended periods while access is cut. After floodwater recedes, saturated and eroded ground may cause plant to bog or roll over and excavations to collapse.",,"- Locate compounds, plant and stockpiles above flood level
 - Prepare a flood emergency and evacuation plan
 - Move plant and materials to high ground on flood warnings
-- Schedule in-stream works for the dry season",,,
+- Schedule in-stream works for the dry season"
 Amrutha,QLD-TE-01,Queensland,Spring,Temperature Extremes,Extreme,Possible,Yes,No,Yes,Possible,Possible,Yes,No,Possible,Possible,No,Possible,Yes,Possible,"- Observed: All of Queensland has warmed since 1910 (Climate Change in Australia). Heatwaves of all severities have become more frequent since 1958, and heatwaves are ranked as the state's fifth highest risk management priority (Qld State of the Environment, 2024). The hazard is already intensifying.
 - Projected: By mid-century, Queensland can expect average annual temperatures to rise by about 1.3–2.5 °C (central estimate 1.9 °C) under a high emissions scenario (Climate Change in Australia). Heatwave frequency may exceed 18 days a year by 2030, with events lasting up to 9 days in Mount Isa and the Torres Strait Islands, and a single heatwave could last up to two weeks (Queensland Future Climate). More extreme heat events and harsher fire weather are also projected (Queensland Future Climate, CMIP6).
 -  Likelihood: Continued increases in temperature extremes are almost certain, with high confidence given strong agreement between observed warming and model projections.
@@ -1231,7 +1276,7 @@ The impact peaks with heatwaves and elevated fire danger during spring–summer,
 - Delayed medical response for heat illness at remote sites","Workers may suffer heat-related illness, and fatigue may lead to falls or plant incidents. Hot work may start grass or bushfires on high fire danger or Total Fire Ban days. Materials, plant and exposed metal surfaces may become hot enough to cause burns, and equipment may overheat or fail.",,"- Implement a heat stress management plan
 - Schedule heavy work and work at height for cooler hours
 - Provide shade, cool water and rest breaks
-- Use hot work permits and stop hot work on Total Fire Ban days",,,
+- Use hot work permits and stop hot work on Total Fire Ban days"
 Amrutha,QLD-TE-02,Queensland,Summer,Temperature Extremes,Extreme,Possible,Yes,No,Yes,Possible,Possible,Yes,No,Possible,Possible,No,Possible,Yes,Possible,"- Observed: All of Queensland has warmed since 1910 (Climate Change in Australia). Heatwaves of all severities have become more frequent since 1958, and heatwaves are ranked as the state's fifth highest risk management priority (Qld State of the Environment, 2024). The hazard is already intensifying.
 - Projected: By mid-century, Queensland can expect average annual temperatures to rise by about 1.3–2.5 °C (central estimate 1.9 °C) under a high emissions scenario (Climate Change in Australia). Heatwave frequency may exceed 18 days a year by 2030, with events lasting up to 9 days in Mount Isa and the Torres Strait Islands, and a single heatwave could last up to two weeks (Queensland Future Climate). More extreme heat events and harsher fire weather are also projected (Queensland Future Climate, CMIP6).
 -  Likelihood: Continued increases in temperature extremes are almost certain, with high confidence given strong agreement between observed warming and model projections.
@@ -1248,7 +1293,7 @@ The impact peaks with heatwaves and elevated fire danger during spring–summer,
 - Delayed medical response for heat illness at remote sites","Workers may suffer heat-related illness, and fatigue may lead to falls or plant incidents. Hot work may start grass or bushfires on high fire danger or Total Fire Ban days. Materials, plant and exposed metal surfaces may become hot enough to cause burns, and equipment may overheat or fail.",,"- Implement a heat stress management plan
 - Schedule heavy work and work at height for cooler hours
 - Provide shade, cool water and rest breaks
-- Use hot work permits and stop hot work on Total Fire Ban days",,,
+- Use hot work permits and stop hot work on Total Fire Ban days"
 Amrutha,QLD-BF-01,Queensland,Spring,Bushfire,Extreme,Possible,Yes,No,Possible,No,Possible,Possible,Yes,No,No,Yes,Possible,Yes,Possible,"Observed: From 1950 to 2018, days with very high fire danger increased across Queensland, especially in the south. Fire seasons now start earlier and sometimes finish later, and these changes have been faster since 1989 (Qld State of the Environment). In the 2019–20 season, extreme to catastrophic conditions hit south-east Queensland on 6 September. 
 Projected: The observed trends are likely to continue, and fire weather is projected to become more intense (Qld State of the Environment). 
 Likelihood: Likely, with high confidence given the observed increase in fire danger days and the projected intensification.
@@ -1266,7 +1311,7 @@ The impact peaks in spring and early summer. The 2019 season ran from early Sept
 - Combustible stockpiles and waste acting as fuel","A bushfire may spread into the site, destroying plant, vehicles, site facilities and stored materials, and forcing evacuation. Hot work or plant may start a fire on high fire danger days. Smoke and road closures may stop work and trap workers at remote sites.",,"- Check the QFD fire danger rating and fire bans daily (QFD; BoM Fire weather services)
 - Clear grass, rubbish and flammable material, and create fuel breaks around the compound
 - During a local fire ban, do hot work only with extinguishers or water ready and a fire watch 
-- Stop hot work and evacuate early on Extreme or Catastrophic days (BoM Fire weather services)",,,
+- Stop hot work and evacuate early on Extreme or Catastrophic days (BoM Fire weather services)"
 Amrutha,QLD-BF-02,Queensland,Summer,Bushfire,Extreme,Possible,Yes,No,Possible,No,Possible,Possible,Yes,No,No,Yes,Possible,Yes,Possible,"Observed: From 1950 to 2018, days with very high fire danger increased across Queensland, especially in the south. Fire seasons now start earlier and sometimes finish later, and these changes have been faster since 1989 (Qld State of the Environment). In the 2019–20 season, extreme to catastrophic conditions hit south-east Queensland on 6 September. 
 Projected: The observed trends are likely to continue, and fire weather is projected to become more intense (Qld State of the Environment). 
 Likelihood: Likely, with high confidence given the observed increase in fire danger days and the projected intensification.
@@ -1284,7 +1329,7 @@ The impact peaks in spring and early summer. The 2019 season ran from early Sept
 - Combustible stockpiles and waste acting as fuel","A bushfire may spread into the site, destroying plant, vehicles, site facilities and stored materials, and forcing evacuation. Hot work or plant may start a fire on high fire danger days. Smoke and road closures may stop work and trap workers at remote sites.",,"- Check the QFD fire danger rating and fire bans daily (QFD; BoM Fire weather services)
 - Clear grass, rubbish and flammable material, and create fuel breaks around the compound
 - During a local fire ban, do hot work only with extinguishers or water ready and a fire watch 
-- Stop hot work and evacuate early on Extreme or Catastrophic days (BoM Fire weather services)",,,
+- Stop hot work and evacuate early on Extreme or Catastrophic days (BoM Fire weather services)"
 Amrutha,QLD-HW-01,Queensland,Spring,High Wind,Extreme,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: Since 2010, Queensland has been directly hit by 8 severe tropical cyclones and more than 20 cyclones of other intensities. Cyclones appear to be moving more slowly and further south (Qld State of the Environment). The BoM severe storm archive records 1,140 damaging wind events in Queensland between 1917 and 2016. 
 Projected: Fewer tropical cyclones are projected, but more of them are expected to be intense. Severe thunderstorm occurrence is likely to increase, although this is not quantified (Qld State of the Environment). Fewer but more intense cyclones are also projected for northern Australia, with medium confidence (Climate Change in Australia).
 Likelihood: Likely. Damaging winds from thunderstorms and cyclones affect Queensland every year, with medium confidence in the projections.
@@ -1302,7 +1347,7 @@ The impact peaks with severe thunderstorms in spring and summer and with tropica
 - Leave cranes out of service and free to weathervane, with the boom low and wind sails fitted if specified (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)",,,
+- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)"
 Amrutha,QLD-HW-02,Queensland,Summer,High Wind,Extreme,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: Since 2010, Queensland has been directly hit by 8 severe tropical cyclones and more than 20 cyclones of other intensities. Cyclones appear to be moving more slowly and further south (Qld State of the Environment). The BoM severe storm archive records 1,140 damaging wind events in Queensland between 1917 and 2016. 
 Projected: Fewer tropical cyclones are projected, but more of them are expected to be intense. Severe thunderstorm occurrence is likely to increase, although this is not quantified (Qld State of the Environment). Fewer but more intense cyclones are also projected for northern Australia, with medium confidence (Climate Change in Australia).
 Likelihood: Likely. Damaging winds from thunderstorms and cyclones affect Queensland every year, with medium confidence in the projections.
@@ -1320,7 +1365,7 @@ The impact peaks with severe thunderstorms in spring and summer and with tropica
 - Leave cranes out of service and free to weathervane, with the boom low and wind sails fitted if specified (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)",,,
+- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)"
 Amrutha,QLD-HW-03,Queensland,Autumn,High Wind,Extreme,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: Since 2010, Queensland has been directly hit by 8 severe tropical cyclones and more than 20 cyclones of other intensities. Cyclones appear to be moving more slowly and further south (Qld State of the Environment). The BoM severe storm archive records 1,140 damaging wind events in Queensland between 1917 and 2016. 
 Projected: Fewer tropical cyclones are projected, but more of them are expected to be intense. Severe thunderstorm occurrence is likely to increase, although this is not quantified (Qld State of the Environment). Fewer but more intense cyclones are also projected for northern Australia, with medium confidence (Climate Change in Australia).
 Likelihood: Likely. Damaging winds from thunderstorms and cyclones affect Queensland every year, with medium confidence in the projections.
@@ -1338,7 +1383,7 @@ The impact peaks with severe thunderstorms in spring and summer and with tropica
 - Leave cranes out of service and free to weathervane, with the boom low and wind sails fitted if specified (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)",,,
+- Monitor BoM severe weather and cyclone warnings and stop outdoor work at destructive levels (BoM)"
 Amrutha,SA-CEF-01,South Australia,Autumn,Coastal Erosion and Flooding,Extreme,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: King tide inundation is increasing around Gulf St Vincent and Spencer Gulf. Sea levels on the SA coast rose an average of 2 mm a year from 1966 to 2022, reaching 3–5 mm a year at some locations from 1993 to 2022 (SA State of the Environment, 2023). Storm surges of 1.4 m and 2.0 m above predicted high tides have been recorded at Port Adelaide and Port Pirie (SA Coast Protection Board).
 - Projected: Sea-level rise is accelerating. After 0.3 m of rise, a 1-in-100-year storm surge flood on the Adelaide coast would have a 20% chance of occurring each year (CoastAdapt).
 - Likelihood: Coastal erosion and flooding are likely, with high confidence given observed sea-level rise and the strong sensitivity of storm surge frequency to further rise.
@@ -1353,7 +1398,7 @@ The impact is driven by storm surges from cold fronts and low-pressure systems d
 - Instability of excavations and foundations in saturated coastal soils","Coastal flooding may inundate low-lying work areas and access roads, interrupting work and limiting movement of workers and plant. Erosion may undermine temporary structures, foundations and access routes, particularly after severe winter storms. Floodwater or saltwater may damage electrical systems, equipment and stored materials.",,"- Set compound and stockpile levels above storm tide levels
 - Avoid foreshore works during autumn–winter storm surges
 - Install temporary seawalls, silt fences and erosion control blankets
-- Set exclusion zones near unstable cliffs and dunes",,,
+- Set exclusion zones near unstable cliffs and dunes"
 Amrutha,SA-CEF-02,South Australia,Winter,Coastal Erosion and Flooding,Extreme,Yes,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: King tide inundation is increasing around Gulf St Vincent and Spencer Gulf. Sea levels on the SA coast rose an average of 2 mm a year from 1966 to 2022, reaching 3–5 mm a year at some locations from 1993 to 2022 (SA State of the Environment, 2023). Storm surges of 1.4 m and 2.0 m above predicted high tides have been recorded at Port Adelaide and Port Pirie (SA Coast Protection Board).
 - Projected: Sea-level rise is accelerating. After 0.3 m of rise, a 1-in-100-year storm surge flood on the Adelaide coast would have a 20% chance of occurring each year (CoastAdapt).
 - Likelihood: Coastal erosion and flooding are likely, with high confidence given observed sea-level rise and the strong sensitivity of storm surge frequency to further rise.
@@ -1368,7 +1413,7 @@ The impact is driven by storm surges from cold fronts and low-pressure systems d
 - Instability of excavations and foundations in saturated coastal soils","Coastal flooding may inundate low-lying work areas and access roads, interrupting work and limiting movement of workers and plant. Erosion may undermine temporary structures, foundations and access routes, particularly after severe winter storms. Floodwater or saltwater may damage electrical systems, equipment and stored materials.",,"- Set compound and stockpile levels above storm tide levels
 - Avoid foreshore works during autumn–winter storm surges
 - Install temporary seawalls, silt fences and erosion control blankets
-- Set exclusion zones near unstable cliffs and dunes",,,
+- Set exclusion zones near unstable cliffs and dunes"
 Amrutha,SA-RE-01,South Australia,Winter,Rainfall Extremes,Extreme,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Total rainfall is declining, but short-duration heavy rainfall events have intensified since 1970 (SA Guide to Climate Projections, 2022).
 - Projected: Extreme falls are expected to keep intensifying despite the overall decline, especially in the cool season (Climate Change in Australia). Maximum 1-day rainfall is projected to increase by up to 17% for southern SA by 2100 under high emissions (CSIRO & BoM, 2015).
 - Likelihood: More intense rainfall extremes are likely, with medium to high confidence. The size of the change varies more between locations than for temperature.
@@ -1382,7 +1427,7 @@ The impact occurs mainly with cold fronts during winter–spring, with intense t
 - Softened ground reducing bearing capacity for scaffolds, cranes and piling rigs
 - Slippery surfaces increasing slips and falls","Short, intense rainfall may flood excavations and low-lying areas, causing trench instability and work stoppages. Sediment and waste may wash off site into stormwater and waterways. Softened ground may cause scaffold bases, crane outriggers or piling rigs to settle or become unstable.",,"- Monitor BoM warnings and set stop-work triggers
 - Install temporary drainage and sediment controls
-- Cover excavations and stockpiles before heavy rain",,,
+- Cover excavations and stockpiles before heavy rain"
 Amrutha,SA-RE-02,South Australia,Spring,Rainfall Extremes,Extreme,Possible,No,Yes,Possible,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Total rainfall is declining, but short-duration heavy rainfall events have intensified since 1970 (SA Guide to Climate Projections, 2022).
 - Projected: Extreme falls are expected to keep intensifying despite the overall decline, especially in the cool season (Climate Change in Australia). Maximum 1-day rainfall is projected to increase by up to 17% for southern SA by 2100 under high emissions (CSIRO & BoM, 2015).
 - Likelihood: More intense rainfall extremes are likely, with medium to high confidence. The size of the change varies more between locations than for temperature.
@@ -1396,7 +1441,7 @@ The impact occurs mainly with cold fronts during winter–spring, with intense t
 - Softened ground reducing bearing capacity for scaffolds, cranes and piling rigs
 - Slippery surfaces increasing slips and falls","Short, intense rainfall may flood excavations and low-lying areas, causing trench instability and work stoppages. Sediment and waste may wash off site into stormwater and waterways. Softened ground may cause scaffold bases, crane outriggers or piling rigs to settle or become unstable.",,"- Monitor BoM warnings and set stop-work triggers
 - Install temporary drainage and sediment controls
-- Cover excavations and stockpiles before heavy rain",,,
+- Cover excavations and stockpiles before heavy rain"
 Amrutha,SA-RF-01,South Australia,Winter,Riverine Flooding,High,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Major River Murray floods are infrequent but severe. 
 - Projected: SA's own rainfall is projected to keep declining, especially in the cool season, while extreme rain events become more intense. The bigger driver for SA is upstream: the largest increases in 1%-chance flood events are projected for south Queensland. Atmospheric rivers that bring rain to the Murray-Darling Basin are also expected to make devastating floods more likely in a warmer world.
 - Likelihood: Major riverine flooding is possible, with medium confidence. Large Murray floods are rare (1931, 1956, 2022–23), but upstream rainfall extremes are projected to intensify.
@@ -1410,7 +1455,7 @@ The impact is driven by upstream winter–spring rainfall in the Murray-Darling 
 - Ferry and road closures isolating sites","Prolonged high river levels may flood site compounds and work areas for weeks, causing long delays and damage to plant, materials and temporary works. Levee overtopping may inundate sites with little notice. Saturated, eroded ground may destabilise excavations and foundations, and road and ferry closures may cut access for workers and deliveries.",,"- Keep compounds and plant above River Murray flood levels
 - Monitor DEW flow reports and act when flows approach 100 GL/day
 - Relocate plant and materials early using upstream warning time
-- Plan alternative access for road and ferry closures",,,
+- Plan alternative access for road and ferry closures"
 Amrutha,SA-RF-02,South Australia,Spring,Riverine Flooding,High,Possible,No,Yes,No,Yes,Possible,No,Yes,Possible,Yes,Yes,Possible,No,Yes,"- Observed: Major River Murray floods are infrequent but severe. 
 - Projected: SA's own rainfall is projected to keep declining, especially in the cool season, while extreme rain events become more intense. The bigger driver for SA is upstream: the largest increases in 1%-chance flood events are projected for south Queensland. Atmospheric rivers that bring rain to the Murray-Darling Basin are also expected to make devastating floods more likely in a warmer world.
 - Likelihood: Major riverine flooding is possible, with medium confidence. Large Murray floods are rare (1931, 1956, 2022–23), but upstream rainfall extremes are projected to intensify.
@@ -1424,7 +1469,7 @@ The impact is driven by upstream winter–spring rainfall in the Murray-Darling 
 - Ferry and road closures isolating sites","Prolonged high river levels may flood site compounds and work areas for weeks, causing long delays and damage to plant, materials and temporary works. Levee overtopping may inundate sites with little notice. Saturated, eroded ground may destabilise excavations and foundations, and road and ferry closures may cut access for workers and deliveries.",,"- Keep compounds and plant above River Murray flood levels
 - Monitor DEW flow reports and act when flows approach 100 GL/day
 - Relocate plant and materials early using upstream warning time
-- Plan alternative access for road and ferry closures",,,
+- Plan alternative access for road and ferry closures"
 Amrutha,SA-HW-01,South Australia,Autumn,High Wind,High,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: On 28 September 2016, at least seven tornadoes hit South Australia, three rated F2 with estimated gusts of 190–260 km/h. The storms contributed to the statewide power outage (BoM report via ESD News). In May 2025, a strong cold front brought damaging winds and abnormally high tides along the SA coast (ABC, 2025).
 Projected: By 2030, near-surface wind speed changes will be small compared with natural variability. In the longer term, small decreases in winter wind speed are projected for southern SA. The SA Government guide gives no projections for extreme winds, storms or cold fronts (SA Guide to Climate Projections, 2022).
 Likelihood: Possible. Damaging winds from cold fronts and thunderstorms occur regularly, but the projections don’t show an increase.
@@ -1441,7 +1486,7 @@ The impact is driven by cold fronts and low-pressure systems during autumn, wint
 - Dust and fibres spreading beyond the work area","Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.",,"- Stop crane lifting at the manufacturer’s wind limit; AS 1418.4 gives 54 km/h as the safe maximum operating speed for tower cranes (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)",,,
+- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)"
 Amrutha,SA-HW-02,South Australia,Winter,High Wind,High,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: On 28 September 2016, at least seven tornadoes hit South Australia, three rated F2 with estimated gusts of 190–260 km/h. The storms contributed to the statewide power outage (BoM report via ESD News). In May 2025, a strong cold front brought damaging winds and abnormally high tides along the SA coast (ABC, 2025).
 Projected: By 2030, near-surface wind speed changes will be small compared with natural variability. In the longer term, small decreases in winter wind speed are projected for southern SA. The SA Government guide gives no projections for extreme winds, storms or cold fronts (SA Guide to Climate Projections, 2022).
 Likelihood: Possible. Damaging winds from cold fronts and thunderstorms occur regularly, but the projections don’t show an increase.
@@ -1458,7 +1503,7 @@ The impact is driven by cold fronts and low-pressure systems during autumn, wint
 - Dust and fibres spreading beyond the work area","Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.",,"- Stop crane lifting at the manufacturer’s wind limit; AS 1418.4 gives 54 km/h as the safe maximum operating speed for tower cranes (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)",,,
+- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)"
 Amrutha,SA-HW-03,South Australia,Spring,High Wind,High,Yes,Possible,No,Yes,No,Yes,Yes,Possible,Yes,Possible,Possible,Yes,Possible,Possible,"Observed: On 28 September 2016, at least seven tornadoes hit South Australia, three rated F2 with estimated gusts of 190–260 km/h. The storms contributed to the statewide power outage (BoM report via ESD News). In May 2025, a strong cold front brought damaging winds and abnormally high tides along the SA coast (ABC, 2025).
 Projected: By 2030, near-surface wind speed changes will be small compared with natural variability. In the longer term, small decreases in winter wind speed are projected for southern SA. The SA Government guide gives no projections for extreme winds, storms or cold fronts (SA Guide to Climate Projections, 2022).
 Likelihood: Possible. Damaging winds from cold fronts and thunderstorms occur regularly, but the projections don’t show an increase.
@@ -1475,4 +1520,56 @@ The impact is driven by cold fronts and low-pressure systems during autumn, wint
 - Dust and fibres spreading beyond the work area","Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.Damaging winds from cold fronts or severe thunderstorms may cause cranes, scaffolds or temporary structures to fail, and loose materials may strike workers or the public. Lifting and work at height may stop, and power outages may halt site operations.",,"- Stop crane lifting at the manufacturer’s wind limit; AS 1418.4 gives 54 km/h as the safe maximum operating speed for tower cranes (WHSQ, 2026)
 - Make sure scaffolds are designed for wind loading and securely tied, especially with sheeting (SafeWork NSW, 2024; WorkSafe ACT)
 - Secure loose materials, fencing and signage before forecast damaging winds (SafeWork NSW, 2024)
-- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)",,,
+- Monitor BoM SA warnings and SA SES advice, and stop outdoor work at destructive levels (BoM; SA SES)"
+Amrutha ,QLD-TC-01,Queensland,Summer,Tropical Cyclone,Extreme,Yes,No,Yes,Yes,Yes,Yes,Possible,Yes,Yes,Yes,Yes,Yes,Possible,Yes,"Observed: Since 2010, 8 severe tropical cyclones and more than 20 other cyclones have made landfall in Queensland. Cyclones appear to be moving more slowly and further south, with heavier rainfall (Qld State of the Environment). Satellite records show the number of cyclones in the Australian region has declined since 1982 (State of the Climate 2024). In 2025, Cyclone Alfred was the first cyclone to affect south-east Queensland in more than 50 years (Climate Change Authority).
+
+Projected: Fewer cyclones are projected, but a greater share are expected to be high intensity, with heavier rainfall. Combined with sea level rise, this will increase storm surge impacts (State of the Climate 2024). Globally, the proportion of Category 4–5 cyclones is projected to rise by about 13% at 2 °C of warming, and peak cyclone rain rates by about 14% (high confidence) (IPCC AR6 WG1, Ch. 11). In Cairns, the area at risk from a 1-in-100-year storm surge is likely to more than double by mid-century (CSIRO, 2025).
+
+Likelihood: Almost certain. Cyclones are expected to keep affecting Queensland every season. Medium confidence in how frequency will change, and high confidence that intensity and rainfall will increase.
+
+There is medium agreement between the observation and projection findings, with medium evidence. Frequency is declining, but intensity, rainfall and storm surge impacts are projected to increase, and the southward shift is still uncertain. The likelihood of cyclone impacts in Queensland is almost certain given the long record of landfalls. Exposure is highest for coastal sites, tall structures, cranes and work near water. Consequences are major: structural collapse, flying debris, storm surge, flooding and extended shutdown. The impact peaks from January to April, in late summer and autumn.","- Coastal and low-lying sites exposed to storm surge
+- Flood-prone sites and work in, over or adjacent to water
+- Tower cranes, mobile cranes and piling rigs
+- Scaffolding with sheeting, formwork decks and temporary structures
+- Plant, heavy vehicles and materials left on site overnight
+- Open excavations and soil or spoil stockpiles","- Cranes and piling rigs losing stability, or luffing booms blowing back in destructive winds
+- Scaffold sheeting and hoardings increasing wind load and risking collapse
+- Loose materials, formply, fencing and debris becoming airborne
+- Storm surge and heavy rain flooding compounds, plant and excavations
+- Stockpiles, fuel and chemicals washing off site
+- Damaged power lines, asbestos in debris and unstable ground after the cyclone
+- Road closures isolating the site and delaying recovery","A tropical cyclone may bring destructive winds, storm surge and heavy rainfall to the site. Cranes, scaffolds and temporary structures may fail or collapse, and loose materials may become airborne and strike workers, the public or nearby property. Storm surge and flooding may inundate compounds, plant and excavations and wash materials off site. The site may need full shutdown and evacuation, followed by extended delays. Clean-up creates further hazards: damaged electrics, asbestos debris and unstable ground.",,"- Monitor BoM Tropical Cyclone Watch and Warning alerts and start site shutdown before gales arrive (BoM)
+- Leave tower cranes free to weathervane, hooks raised and lifting gear removed. Lower and retract mobile crane booms (WHSQ)
+- Remove scaffold sheeting and hoardings, and brace temporary structures (WHSQ)
+- Have the scaffold supervisor inspect ties and tie down top-lift planks before shutdown (Master Builders Qld)
+- Secure or remove loose materials, fencing, gas cylinders and fuel, and empty skips (WHSQ)
+- Make sure temporary fencing meets the regional wind category in AS 4687 (Master Builders Qld)
+- Cover or backfill excavations, and move plant and stockpiles above flood and surge level (WHSQ)
+- Delay material deliveries until the cyclone has passed (Master Builders Qld)
+- Before reopening, get an engineer to inspect damaged cranes, have a licensed electrician check electrics, and treat suspect debris as asbestos (WHSQ)"
+Amrutha ,QLD-TC-02,Queensland,Autumn,Tropical Cyclone,Extreme,Yes,No,Yes,Yes,Yes,Yes,Possible,Yes,Yes,Yes,Yes,Yes,Possible,Yes,"Observed: Since 2010, 8 severe tropical cyclones and more than 20 other cyclones have made landfall in Queensland. Cyclones appear to be moving more slowly and further south, with heavier rainfall (Qld State of the Environment). Satellite records show the number of cyclones in the Australian region has declined since 1982 (State of the Climate 2024). In 2025, Cyclone Alfred was the first cyclone to affect south-east Queensland in more than 50 years (Climate Change Authority).
+
+Projected: Fewer cyclones are projected, but a greater share are expected to be high intensity, with heavier rainfall. Combined with sea level rise, this will increase storm surge impacts (State of the Climate 2024). Globally, the proportion of Category 4–5 cyclones is projected to rise by about 13% at 2 °C of warming, and peak cyclone rain rates by about 14% (high confidence) (IPCC AR6 WG1, Ch. 11). In Cairns, the area at risk from a 1-in-100-year storm surge is likely to more than double by mid-century (CSIRO, 2025).
+
+Likelihood: Almost certain. Cyclones are expected to keep affecting Queensland every season. Medium confidence in how frequency will change, and high confidence that intensity and rainfall will increase.
+
+There is medium agreement between the observation and projection findings, with medium evidence. Frequency is declining, but intensity, rainfall and storm surge impacts are projected to increase, and the southward shift is still uncertain. The likelihood of cyclone impacts in Queensland is almost certain given the long record of landfalls. Exposure is highest for coastal sites, tall structures, cranes and work near water. Consequences are major: structural collapse, flying debris, storm surge, flooding and extended shutdown. The impact peaks from January to April, in late summer and autumn.","- Coastal and low-lying sites exposed to storm surge
+- Flood-prone sites and work in, over or adjacent to water
+- Tower cranes, mobile cranes and piling rigs
+- Scaffolding with sheeting, formwork decks and temporary structures
+- Plant, heavy vehicles and materials left on site overnight
+- Open excavations and soil or spoil stockpiles","- Cranes and piling rigs losing stability, or luffing booms blowing back in destructive winds
+- Scaffold sheeting and hoardings increasing wind load and risking collapse
+- Loose materials, formply, fencing and debris becoming airborne
+- Storm surge and heavy rain flooding compounds, plant and excavations
+- Stockpiles, fuel and chemicals washing off site
+- Damaged power lines, asbestos in debris and unstable ground after the cyclone
+- Road closures isolating the site and delaying recovery","A tropical cyclone may bring destructive winds, storm surge and heavy rainfall to the site. Cranes, scaffolds and temporary structures may fail or collapse, and loose materials may become airborne and strike workers, the public or nearby property. Storm surge and flooding may inundate compounds, plant and excavations and wash materials off site. The site may need full shutdown and evacuation, followed by extended delays. Clean-up creates further hazards: damaged electrics, asbestos debris and unstable ground.",,"- Monitor BoM Tropical Cyclone Watch and Warning alerts and start site shutdown before gales arrive (BoM)
+- Leave tower cranes free to weathervane, hooks raised and lifting gear removed. Lower and retract mobile crane booms (WHSQ)
+- Remove scaffold sheeting and hoardings, and brace temporary structures (WHSQ)
+- Have the scaffold supervisor inspect ties and tie down top-lift planks before shutdown (Master Builders Qld)
+- Secure or remove loose materials, fencing, gas cylinders and fuel, and empty skips (WHSQ)
+- Make sure temporary fencing meets the regional wind category in AS 4687 (Master Builders Qld)
+- Cover or backfill excavations, and move plant and stockpiles above flood and surge level (WHSQ)
+- Delay material deliveries until the cyclone has passed (Master Builders Qld)
+- Before reopening, get an engineer to inspect damaged cranes, have a licensed electrician check electrics, and treat suspect debris as asbestos (WHSQ)"
